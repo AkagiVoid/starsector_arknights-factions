@@ -8,6 +8,7 @@
     "minor":0,
     "patch":1,
   },
+  "starsectorVersion":"0.98a-RC8",
   "directDownloadURL": "https://github.com/AkagiVoid/starsector_arknights-factions/archive/refs/tags/0.1.zip",
   "changelogURL":"https://github.com/AkagiVoid/starsector_arknights-factions/blob/main/changelog.txt"
 }
