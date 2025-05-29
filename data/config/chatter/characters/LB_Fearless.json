@@ -1,0 +1,93 @@
+{
+	"name":"Lost Battalion (Fearless)",
+	"personalities":["steady","aggressive","reckless"],
+	"gender":["m","f","n"],
+	"chance":1,
+	"talkativeness":1,
+	"categoryTags":["player"],
+	
+	"lines":{
+		"start":[
+			{"text":"Interesting.."},
+			{"text":"Hmm."},
+			{"text":"I can taste their fear."},
+			{"text":"I can smell their fear."},
+			{"text":"Oh?"},
+			{"text":"They're slithering in the darkness."},
+			{"text":"It's time for a hunt.."},
+			{"text":"Even death fears me."},
+			{"text":"It's almost a shame."},
+		],
+		"start_boss":[
+			{"text":"..."},
+			{"text":"Giants in the playground.."},
+			{"text":"Shadowed by death."},
+			{"text":"One of us isn't leaving alive. Which is it going to be?"},
+		],
+		"retreat":[
+			{"text":"One more day."},
+			{"text":"A temporary setback."},
+			{"text":"You live. For now."},
+			{"text":"Time for dreams."},
+			{"text":"I survive."},
+		],
+		"out_of_missiles":[
+			{"text":"Empty."},
+			{"text":"The rain stopped."},
+		],
+		"engaged":[
+			{"text":"You will break."},
+			{"text":"I see you."},
+			{"text":"You're in the way."},
+			{"text":"In space, no one can hear you scream."},
+			{"text":"It comes for us all."},
+		],
+		"need_help":[
+			{"text":"Resistance."},
+			{"text":"Their words are poison in my mind."},
+			{"text":"Restrained.."},
+			{"text":"They are powerful."},
+		],
+		"pursuing":[
+			{"text":"It's time to pay a price."},
+			{"text":"I'm going to break you."},
+			{"text":"Nothing shall remain."},
+		],
+		"running":[
+			{"text":"I'll be back."},
+			{"text":"You'll learn."},
+			{"text":"Out of the frying pan.."},
+		],
+		"hull_90":[
+			{"text":"Boundless."},
+			{"text":"Blood in the water."},
+			{"text":"Skimming a little of the top.."},
+			{"text":"It's only the beginning."},
+			{"text":"Just a flesh wound."},
+		],
+		"hull_50":[
+			{"text":"We're burning."},
+			{"text":"You shouldn't have done that."},
+			{"text":"You made a big mistake."},
+			{"text":"I'm not dead yet."},
+		],
+		"hull_30":[
+			{"text":"I feel so alive."},
+			{"text":"I'm breathing through the smoke."},
+			{"text":"I won't die here."},
+		],
+		"overload":[
+			{"text":"Stuck in the water."},
+			{"text":"Start repairs."},
+		],
+		"death":[
+			{"text":"..."},
+			{"text":"I dream."},
+			{"text":"Are we-"},
+		],
+		"victory":[
+			{"text":"Hmm."},
+			{"text":"..."},
+		],
+	}
+}

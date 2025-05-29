@@ -1,0 +1,216 @@
+{
+"showInIntelTab":true,
+#////////////////////////////////////////////////////////////////////////////////////////////
+	
+#//GIVES TRAITS TO YOUR FACTION. COMMENT THEM OUT TO DISABLE, REMOVE THE # SYMBOL TO ENABLE
+	
+    "diplomacyTraits":
+	
+	[
+	
+#	"paranoid",			#"Can opportunistically declare war at Suspicious reputation level.",
+					#"incompatible":["pacifist"]
+
+	
+#	"predatory",		#"Can opportunistically declare war regardless of disposition score, at Favorable (Suspicious if Player) reputation level or lower",
+
+
+		
+#	"pacifist",			#"Will never opportunistically declare war.",
+					#"incompatible":["paranoid"]
+
+
+#	"helps_allies",		#"Disposition penalties towards enemies of our friends/allies. Will always vote yes for an alliance action.",
+
+
+
+#	"irredentist",		#"+50% disposition penalties from revanchism.",
+
+
+
+#	"stalwart",			#"-33% war weariness gains.",
+					#"incompatible":["weak-willed", "foreverwar"]
+
+
+
+#	"weak-willed",		#"+50% war weariness gains.",
+					#"incompatible":["stalwart", "foreverwar"]
+
+
+
+	"foreverwar",		#"Zero war weariness.",
+					#"incompatible":["weak-willed", "stalwart"]
+
+
+
+#	"selfrighteous",	#"Doubled disposition effects from alignment.",
+
+
+
+	"temperamental",	#"+25% to all disposition effects.",
+
+
+	
+#	"dislikes_ai",		#"Disposition penalty for use of AI cores.",
+					#"incompatible":["hates_ai", "likes_ai"]
+
+	
+#	"hates_ai",			#"Heavy disposition penalty for use of AI cores.",
+					#"incompatible":["dislikes_ai", "likes_ai"]
+
+	
+	"likes_ai",			#"Disposition bonus for use of AI cores.",
+					#"incompatible":["hates_ai", "dislikes_ai"]
+
+
+#	"envious",			#"+50% disposition penalty from dominance.",
+					#"incompatible":["submissive", "neutralist"]
+
+
+#	"submissive",		#"Dominance disposition penalty becomes a bonus instead.",
+					#"incompatible":["envious", "neutralist"]
+
+
+	"neutralist",		#"No disposition penalty from dominance.",
+					#"incompatible":["envious", "submissive"]
+
+
+#	"monopolist",		#"Disposition penalty from economic competition. Looser relationship limits on targeting other factions for economic sabotage.",
+
+
+	
+#	"law_and_order",	#"Disposition penalty from free ports.",
+					#"incompatible":["anarchist"]
+
+						
+#	"anarchist",		#"Disposition bonus from free ports.",
+					#"incompatible":["law_and_order"]
+
+
+	"lowprofile",		#"Markets less likely to be targeted for raids/invasions, if the attacker has multiple enemies. Effect diminishes with empire size.",
+
+
+
+	"devious",			#"Agent actions have increased chance of execution, success rate and effect.",
+
+
+
+#	"monstrous",		#"This faction is seen as inhuman, and not in a cute way. Disposition penalties from everyone, and reduced rep penalty on the player for atrocities against this faction.",
+
+
+
+	],
+#///////////////////////////////////////////////////////////
+
+#NEX SETTINGS:
+
+	#//TECHNICAL SETTINGS, DO NOT MESS WITH THESE.
+	"playableFaction":true,
+    "corvusCompatible":true,		
+    "noRandomizeRelations":false,
+
+#////////////////////////////////////////////////////
+
+		#RISKY SETTINGS, BE CAREFUL WITH THESE
+
+#	"dropPrisoners":false,	#PROBABLY IRRELEVANT
+#   "hostileToAll":2,		#NEEDS TESTING BUT WOULD NOT RECOMMEND.
+
+	"noSyncRelations":false,		#NEEDS TESTING, DO NOT RECOMMEND CHANGING
+
+    "specialForcesMaxFleets":0,		#NEEDS TESTING, THERE IS RISK FOR NUMBERS GREATER THAN 0.
+    "specialForcesNamerClass":"exerelin.campaign.intel.specialforces.namer.PlanetNamer",
+
+#/////////////////////////////////////////////////////
+
+		#NO PRACTICAL USE, MAY NOT EVEN BE USED.
+    "difficultyString":"hard",
+
+     "directoryUseShortName":false,		#CHOOSES FROM THE LONG NAME IN THE PLAYER.FACTION FILE OR THE SHORT ONE
+
+	"showIntelEvenIfDead":true,		#WE WILL NOT BE FORGOTTEN
+
+#/////////////////////////////////////////////////////////
+
+
+	
+     "groundBattleSettings":{
+        "moraleDamageTakenMult":0.9,	#SETS THE AMOUT OF MORALE DAMAGE, EXAMPLE: 0.9 IS EQUIVALENT TO 90%.
+    },
+
+
+    
+
+
+    #ENABLING THIS MAY BE A STRUGGLE, UNLESS YOU VASTLY INCREASE ADMIN CAP /// WOULD PROBABLY STILL BE ANNOYING
+    "colonyExpeditionChance":0,	# baseline expansion behaviour		# chance of the faction being picked to send a colony expedition. Default 0 (disabled)
+ 
+	"colonyTargetValuator":"exerelin.campaign.colony.IndustrialColonyTargetValuator",
+
+    "raidsFromBases":false,		#SHOULD BE INTERESTING.
+
+
+    "invasionSupportFleetName":"Legion",
+    "rebelFleetSuffix":"Traitors",
+    "responseFleetName":"Peacekeeper Fleet",	#USED WHEN SPAWNING FLEETS TO DEFEND. I THINK.
+
+	
+		#NOT SURE WHAT THESE DO BUT KEEPING THEM HERE. CHOOSE ONLY ONE.
+#   "morality":"evil",
+#   "morality":"good",
+	"morality":"amoral",
+#   "morality":"neutral",
+
+
+	#ALIGNMENTS LOCK FOR HOW OTHER FACTIONS VIEW YOU, IF SET CAN NOT BE CHANGED IN-GAME.
+#    "alignments":{
+#        "technocratic":1,
+#        "hierarchical":1,
+#        "militarist":1,
+#        "diplomatic":1,
+#        "ideological":-0.5,
+
+#	},
+ 
+
+ 
+#WHAT ITEMS YOU SPAWN WITH IN YOUR INVENTORY:
+    "startSpecialItems":
+	[
+		[
+		
+#		["low_tech_package", ""], ["midline_package", ""], ["high_tech_package", ""], ["XIV_package", ""], ["missile_package", ""]
+#		["xiii_package"]
+
+		],
+    ],
+   
+   
+   
+    "startShipsSolo":[
+      ["swp_alastor_sta"],
+      ["centurion_Starting"],
+      # tutorial start
+      ["wolf_Starting", "kite_Starting"],
+      ["wolf_Starting", "shepherd_Starting"],
+      ["wayfarer_Starting", "kite_Starting"],
+      ["wayfarer_Starting", "shepherd_Starting"],
+    ],
+    "startShipsCombatSmall":[["hammerhead_Balanced", "vigilance_Starting", "kite_Standard"]],
+    "startShipsTradeSmall":[["mule_Starting", "cerberus_Standard", "mercury_Standard"]],
+    "startShipsCombatLarge":[
+      ["swp_vulture_sta", "swp_striker_ass", "wolf_Assault"],
+      ["eagle_Balanced", "sunder_Assault", "brawler_Elite"]
+    ],
+    "startShipsTradeLarge":[["colossus_Standard", "mule_Standard", "wayfarer_Standard"]],
+    "startShipsExplorerLarge":[["venture_Balanced", "tarsus_Standard", "shepherd_Frontier"]],
+    "startShipsCarrierSmall":[["drover_Strike", "monitor_Escort", "vigilance_AP"]],
+    "startShipsCarrierLarge":[["heron_Strike", "hammerhead_Balanced", "brawler_Elite"]],
+    "startShipsSuper":[["hyperion_Attack"]],
+    
+	
+
+  
+  
+    "industrySeeds":[],	# don't seed stuff
+}

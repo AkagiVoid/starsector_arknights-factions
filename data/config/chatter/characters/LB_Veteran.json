@@ -1,0 +1,125 @@
+{
+	"name":"Lost Battalion (veteran)",
+	"personalities":["aggressive","reckless"],
+	"gender":["m","f","n"],
+	"chance":0.5,
+	"talkativeness":1,
+	"categoryTags":["player"],
+
+	"lines":{
+		"start":[
+			{"text":"Alright boys, time to bag ourselves a hero!"},
+			{"text":"I crawled out of my grave to put you in yours."},
+			{"text":"Counting targets..."},
+			{"text":"Where there's smoke there's fire.."},
+			{"text":"God, oh god, I need a kill today."},
+			{"text":"Too late for diplomacy."},
+			{"text":"Bag 'em and tag 'em."},
+			{"text":"I must break you."},
+			{"text":"Locked and ready!"},
+			{"text":"This is not a drill."}
+		],
+		"start_boss":[
+			{"text":"I needed a new wall mount."},
+			{"text":"What do you think is the mileage on that thing?"},
+			{"text":"Sir, it's heading right for us..."},
+			{"text":"Target sighted."},
+			{"text":"It'll die like the rest of them."}
+		],
+		"retreat":[
+			{"text":"Leaving."},
+			{"text":"Copy. We're regrouping."},
+			{"text":"We have to go? Alright."},
+			{"text":"Let's see if we make it back."}
+		],
+		"out_of_missiles":[
+			{"text":"Missile check failed."},
+			{"text":"Seriously? Now?"},
+			{"text":"Of all the- Command, we need a resupply."},
+			{"text":"All I got are blanks!"}
+		],
+		"engaged":[
+			{"text":"We got contact!"},
+			{"text":"Incoming!"},
+			{"text":"Contacts!"},
+			{"text":"You're gonna pay for that.."},
+			{"text":"In weapons range!"},
+			{"text":"Engaging!"}
+		],
+		"need_help":[
+			{"text":"We're weakening but still holding."},
+			{"text":"Feeling weak!"},
+			{"text":"Command, please advise."},
+			{"text":"Burning but not spent."},
+			{"text":"Command, we're getting shredded here!"},
+			{"text":"Back's to the wall.."},
+			{"text":"Require assistance!"},
+			{"text":"Gonna need some help if you want them dead."}
+		],
+		"pursuing":[
+			{"text":"Sweet dreams."},
+			{"text":"Won't be waking up from this."},
+			{"text":"Bag 'em and tag 'em."},
+			{"text":"Clean sweep, boys, we don't want stragglers."},
+			{"text":"No time for heroes."},
+			{"text":"Well would you look at that, a free meal."},
+			{"text":"You know the drill, no survivors."},
+			{"text":"Been here before, just like how it used to be."},
+			{"text":"Cut off their escape."}
+		],
+		"running":[
+			{"text":"Can't let you take me alive. But I'm not dying either."},
+			{"text":"Guess you win this round."},
+			{"text":"I'll be back for you, later."},
+			{"text":"I'm leaving this up to you."},
+			{"text":"Exfiltrating."}
+		],
+		"hull_90":[
+			{"text":"Small burns."},
+			{"text":"Need to try harder than that."},
+			{"text":"I felt a shake."},
+			{"text":"Small leaks."},
+			{"text":"Taking damage."},
+			{"text":"Taking hits."}
+		],
+		"hull_50":[
+			{"text":"We're just getting started."},
+			{"text":"I won't stop."},
+			{"text":"Can you give as good as you get?"},
+			{"text":"It's getting unsteady."},
+			{"text":"Feeling the burn."}
+		],
+		"hull_30":[
+			{"text":"You're not getting me."},
+			{"text":"Why won't you die?"},
+			{"text":"Stronger men than you have died trying to kill me."},
+			{"text":"I'm going to shove a rock in your exhaust port."},
+			{"text":"I didn't survive the shutdown to die to the likes of you."},
+			{"text":"We're holding.."},
+		],
+		"overload":[
+			{"text":"Tch, right now?"},
+			{"text":"Get me back online!"},
+			{"text":"Check those systems!"},
+			{"text":"We're like fish in a barrel!"}
+		],
+		"death":[
+			{"text":"So this is how it ends."},
+			{"text":"We're not gonna-"},
+			{"text":"I'm fading."},
+			{"text":"I'm-"},
+			{"text":"Burnt."},
+			{"text":"Ejecting."},
+			{"text":"All crew, eject! Eject! Eject!"},
+		],
+		"victory":[
+			{"text":"Success."},
+			{"text":"Mission accomplished."},
+			{"text":"Thought I'd lost it."},
+			{"text":"You can't stop me."},
+			{"text":"And now, the best part of the job."},
+			{"text":"You tried, you died."},
+			{"text":"And now to find the guy who shot me."},
+		],
+	}
+}

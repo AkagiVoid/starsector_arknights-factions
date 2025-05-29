@@ -1,0 +1,181 @@
+{
+	id:"dweller",
+	"displayName":"Laterano",
+	"displayNameWithArticle":"the Laterano",
+	"displayNameLong":"Laterano Leithanien Minos",
+	"displayNameLongWithArticle":"the Laterano Leithanien Minos",
+	"entityNamePrefix":"",
+	"personNamePrefix":"",
+	"personNamePrefixAOrAn":"is",
+	"displayNameIsOrAre":"is",
+	"logo":"graphics/factions/laterano_flag.png",
+	"crest":"graphics/factions/laterano_crest.png",
+	"shipNamePrefix":"LLM",
+	"color":[150,10,30,255],
+	"baseUIColor":[150,10,30,255],
+	"shipNameSources":{
+		"LATERANO":1,
+		"LEITHANIEN":1,
+		"MINOS":1,
+	},
+	"names":{
+		"laterano":1,
+		"leithanien":1,
+		"minos":1,
+	},
+	"variantOverrides":{
+	},
+	# multiplier for how often hulls show up in the faction's fleets
+	"hullFrequency":{
+		"tags":{
+		},
+		"hulls":{
+		},
+	},
+	# ships the faction gets access to when importing S&W out-of-faction
+	"shipsWhenImporting":{
+		"tags":["dweller"],
+		"hulls":[
+		],
+	},
+	"knownShips":{
+		"tags":["dweller"],
+		"hulls":[
+		],
+	},
+	# listing ships here will make the faction mostly use them even if other hulls become available
+	"priorityShips":{
+		"tags":[],
+		"hulls":[
+		],
+	},
+	"knownFighters":{
+		"tags":["dweller"],
+		"fighters":[
+		],
+	},
+	"priorityFighters":{
+		"tags":[],
+		"fighters":[
+		],
+	},
+	"knownWeapons":{
+		"tags":["dweller"],
+		"weapons":[
+		],
+	},
+	"priorityWeapons":{
+		"tags":[],
+		"weapons":[
+		],
+	},
+	"knownHullMods":{
+		"tags":["dweller"],
+		"hullMods":[
+		],
+	},
+	"factionDoctrine":{
+		"warships":5,
+		"carriers":0,
+		"phaseShips":0,
+		"officerQuality":5,
+		"shipQuality":5,
+		"numShips":1,
+		"shipSize":5,
+		"aggression":2, # gets overridden by AI picker anyway
+		"combatFreighterProbability":0,     				# instead of some portion of the freighters in a fleet
+		"combatFreighterCombatUseFraction":1,				# as part of the normal combat lineup
+		"combatFreighterCombatUseFractionWhenPriority":1,   # as part of normal combat lineup, when marked as priority ship
+		"autofitRandomizeProbability":0.25,
+		"commanderSkillsShuffleProbability":1,
+		"commanderSkills":[
+		],
+	},
+	#"shipRoles":{
+	#},
+	"illegalCommodities":[
+	],
+	"music":{
+		#"music_combat_set":"music_tritach_encounter_hostile",
+		"encounter_hostile":"music_dweller_encounter_hostile",
+	},	
+	"portraits":{
+		"standard_female":[
+			"graphics/portraits/ambriel_laterano.png",
+			"graphics/portraits/archetto_laterano.png",
+			"graphics/portraits/fiammetta_laterano.png",
+			"graphics/portraits/lemuen_laterano.png",
+			"graphics/portraits/mostima_laterano.png",
+			"graphics/portraits/plume_laterano.png",
+			"graphics/portraits/spuria_laterano.png",
+			"graphics/portraits/virtuosa_laterano.png",
+			"graphics/portraits/cecelia-la-porta_laterano.png",
+			"graphics/portraits/fortuna_laterano.png",
+			"graphics/portraits/velliv_laterano.png",
+			"graphics/portraits/earthspirit_leithanien.png",
+			"graphics/portraits/eyjafjalla_leithanien.png",
+			"graphics/portraits/eyjafjalla-hvit-aska_leithanien.png",
+			"graphics/portraits/viviana_leithanien.png",
+			"graphics/portraits/cora-lowenstein_leithanien.png",
+			"graphics/portraits/gertrude-strollo_leithanien.png",
+			"graphics/portraits/tatjana-bergler_leithanien.png",
+			"graphics/portraits/yulia-schuler_leithanien.png",
+			"graphics/portraits/conviction_minos.png",
+			"graphics/portraits/erato_minos.png",
+			"graphics/portraits/pallas_minos.png",
+			"graphics/portraits/sideroca_minos.png",
+			"graphics/portraits/vulcan_minos.png",
+			"graphics/portraits/aspasia-ho-herias_minos.png",
+		],
+		"standard_male":[
+			"graphics/portraits/arene_laterano.png",
+			"graphics/portraits/confess-47_laterano.png",
+			"graphics/portraits/enforcer_laterano.png",
+			"graphics/portraits/executor_laterano.png",
+			"graphics/portraits/executor-ex-foedere_laterano.png",
+			"graphics/portraits/insider_laterano.png",
+			"graphics/portraits/sankta-miksaparato_laterano.png",
+			"graphics/portraits/oren-argiolas_laterano.png",
+			"graphics/portraits/stefano-torregrossa_laterano.png",
+			"graphics/portraits/clement-dubois_laterano.png",
+			"graphics/portraits/bassline_leithanien.png",
+			"graphics/portraits/czerny_leithanien.png",
+			"graphics/portraits/diamante_leithanien.png",
+			"graphics/portraits/ebenholz_leithanien.png",
+			"graphics/portraits/lessing_leithanien.png",
+			"graphics/portraits/biegler_leithanien.png",
+			"graphics/portraits/brandt-reiner_leithanien.png",
+			"graphics/portraits/gerhard-hoffmann_leithanien.png",
+			"graphics/portraits/kreide_leithanien.png",
+			"graphics/portraits/lachmann_leithanien.png",
+			"graphics/portraits/severin-hawthorn_leithanien.png",
+			"graphics/portraits/conviction_minos.png",
+			"graphics/portraits/dikaiopolis_minos.png",
+			"graphics/portraits/eurill-pides_minos.png",
+		],
+	},
+	"ranks":{
+		"ranks":{
+		},
+		"posts":{
+		},
+	},
+	"custom":{
+		"engageWhenEvenStrength":true,
+		"allowsTransponderOffTrade":true, # to prevent cargoscan dialog from "patrols"
+		"postsNoBounties":true,
+		"fightToTheLast":true, # order a full assault instead of retreating, in most cases
+		#"noAICoresFromAutomatedDefenses":true,
+		#"officersOnAutomatedDefenses":true,
+		"simulatorData":{
+			"showInSimulatorDevModeOnly":true,
+			"includeCivShipsWithFaction":true,
+			"noOfficers":true,
+		},
+	},	
+	"fleetTypeNames":{
+		"patrolSmall":"Lesser Manifestation", 
+		"patrolMedium":"Greater Manifestation", 
+		"patrolLarge":"Transcendent Manifestation", 
+	},
+},

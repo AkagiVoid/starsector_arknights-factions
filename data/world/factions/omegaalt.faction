@@ -1,0 +1,167 @@
+{
+	id:"omega",
+	"displayName":"Siesta",
+	"displayNameWithArticle":"the Siesta",
+	"displayNameLong":"Siestan Commonwealth",
+	"displayNameLongWithArticle":"the Siestan Commonwealth",
+	"entityNamePrefix":"",
+	"personNamePrefix":"",
+	"personNamePrefixAOrAn":"an",
+	"displayNameIsOrAre":"are",
+	"logo":"graphics/factions/siesta_flag.png",
+	"crest":"graphics/factions/siesta_crest.png",
+	"shipNamePrefix":"SCW",
+	"color":[70,255,235,255],
+	"baseUIColor":[70,255,235,255],
+	"shipNameSources":{
+		"SIESTA":1,
+	},
+	"names":{
+		"siesta":1,
+	},
+	"variantOverrides":{
+	},
+	# multiplier for how often hulls show up in the faction's fleets
+	"hullFrequency":{
+		"tags":{
+		},
+		"hulls":{
+		},
+	},
+	# ships the faction gets access to when importing S&W out-of-faction
+	"shipsWhenImporting":{
+		"tags":["omega"],
+		"hulls":[
+		],
+	},
+	"knownShips":{
+		"tags":["omega"],
+		"hulls":[
+		],
+	},
+	# listing ships here will make the faction mostly use them even if other hulls become available
+	"priorityShips":{
+		"tags":[],
+		"hulls":[
+		],
+	},
+	"knownFighters":{
+		"tags":["omega"],
+		"fighters":[
+		],
+	},
+	"priorityFighters":{
+		"tags":[],
+		"fighters":[
+		],
+	},
+	"knownWeapons":{
+		"tags":["omega"],
+		"weapons":[
+		],
+	},
+	"priorityWeapons":{
+		"tags":[],
+		"weapons":[
+		],
+	},
+	"knownHullMods":{
+		"tags":["base_bp", "omega"],
+		"hullMods":[
+			"advancedshieldemitter", # accelerated
+			"advancedoptics",
+			"turretgyros",
+			"armoredweapons",
+			"augmentedengines",
+			"autorepair",
+			"converted_hangar",
+			"eccm",
+			"ecm",
+			"expanded_deck_crew",
+			"magazines",
+			"missleracks",
+			"extendedshieldemitter",
+			"frontemitter",
+			"frontshield",  # makeshift
+			"hardenedshieldemitter",
+			"heavyarmor",
+			"insulatedengine",
+			"pointdefenseai",
+			"targetingunit",
+			"nav_relay",
+			"adaptiveshields", # omni
+			"operations_center",
+			"recovery_shuttles",
+			"fluxbreakers",
+			"solar_shielding",
+			"stabilizedshieldemitter",
+			"surveying_equipment",
+		],
+	},
+	"factionDoctrine":{
+		"warships":5,
+		"carriers":0,
+		"phaseShips":0,
+		"officerQuality":5,
+		"shipQuality":5,
+		"numShips":1,
+		"shipSize":5,
+		"aggression":5, # doesn't matter since automated ships are super aggressive regardless
+		"combatFreighterProbability":0,     				# instead of some portion of the freighters in a fleet
+		"combatFreighterCombatUseFraction":1,				# as part of the normal combat lineup
+		"combatFreighterCombatUseFractionWhenPriority":1,   # as part of normal combat lineup, when marked as priority ship
+		"autofitRandomizeProbability":0.25,
+		"commanderSkillsShuffleProbability":1,
+		"commanderSkills":[
+		],
+	},
+	#"shipRoles":{
+	#},
+	"illegalCommodities":[
+	],
+	"music":{
+		"encounter_hostile":"music_tritach_encounter_hostile",
+	},	
+	"portraits":{
+		"standard_female":[
+			"graphics/portraits/schwarz_siesta.png",
+			"graphics/portraits/poncirus_siesta.png",
+			"graphics/portraits/ceylon_siesta.png",
+			"graphics/portraits/liv_siesta.png",
+			"graphics/portraits/harley_siesta.png",
+			
+		],
+		"standard_male":[
+		"graphics/portraits/bryophyta_siesta.png",
+		"graphics/portraits/adele-keller_siesta.png",
+		"graphics/portraits/costa_siesta.png",
+		"graphics/portraits/lut_siesta.png",
+		"graphics/portraits/pelipper-brown_siesta.png",
+		],
+	},
+	"ranks":{
+		"ranks":{
+		},
+		"posts":{
+		},
+	},
+	"custom":{
+		"engageWhenEvenStrength":true,
+		"allowsTransponderOffTrade":true, # to prevent cargoscan dialog from "patrols"
+		"postsNoBounties":true,
+		"fightToTheLast":true, # order a full assault instead of retreating, in most cases
+		"noAICoresFromAutomatedDefenses":true,
+		"officersOnAutomatedDefenses":true,
+		"simulatorData":{
+			"showInSimulatorDevModeOnly":true,
+			"omegaAICores":true,
+			"includeCivShipsWithFaction":true,
+		},
+	},	
+	"fleetTypeNames":{
+		"patrolSmall":"Minor Apparition", 
+		"patrolMedium":"Manifestation", 
+		"patrolLarge":"Major Incursion", 
+		"battlestation":"Stable Incursion",
+	},
+},

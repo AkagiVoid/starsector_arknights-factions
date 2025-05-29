@@ -1,0 +1,151 @@
+{
+	# only used for fleet creation, not an actual faction
+	"id":"scavengers",
+	"displayName":"Siracusa",
+	"displayNameWithArticle":"the Siracusan ConFederation",
+	"logo":"graphics/factions/siracusa_flag.png",
+	"crest":"graphics/factions/siracusa_crest.png",
+	"shipNamePrefix":"SCF",
+	"shipNameSources":{
+		"SIRACUSA":1,
+	},
+	"names":{
+		"siracusa":1,
+	},
+	"variantOverrides":{
+	},
+	# multiplier for how often hulls show up in the faction's fleets
+	"hullFrequency":{
+		"tags":{
+		},
+		"hulls":{
+			"hyperion":0.25,
+			"scarab":0.25,
+			"monitor":0.25,
+			"tempest":0.5,
+			"aurora":0.5,
+		},
+	},
+	# ships the faction gets access to when importing S&W out-of-faction
+	"shipsWhenImporting":{
+		"tags":[],
+		"hulls":[
+		],
+	},
+	"knownShips":{
+		"tags":["ind", "independent"],
+		"hulls":[
+		],
+	},
+	# listing ships here will make the faction mostly use them even if other hulls become available
+	"priorityShips":{
+		"tags":[],
+		"hulls":[
+		],
+	},
+	"knownFighters":{
+		"tags":["ind", "independent"],
+		"fighters":[
+		],
+	},
+	"priorityFighters":{
+		"tags":[],
+		"fighters":[
+		],
+	},
+	"knownWeapons":{
+		"tags":["ind", "independent"],
+		"weapons":[
+		],
+	},
+	"priorityWeapons":{
+		"tags":[],
+		"weapons":[
+		],
+	},
+	"knownHullMods":{
+		"tags":["standard", "ind", "independent"],
+		"hullMods":[
+		],
+	},
+	"voices":{
+		"LOW":{
+			"soldier":10,
+			"faithful":5,		
+			"spacer":10,
+		},
+		"MEDIUM":{
+			"soldier":10,
+			"business":10,
+			"official":5,
+		},
+		"HIGH":{
+			"soldier":10,
+			"business":10,
+			"official":10,
+		},
+	},	
+	"custom":{
+		"spawnsAsIndependent":true,
+	},
+	"factionDoctrine":{
+		"warships":4,
+		"carriers":2,
+		"phaseShips":1,
+		"officerQuality":3,
+		"shipQuality":1,
+		"numShips":2,
+		"shipSize":3,
+		"aggression":4,
+		"combatFreighterProbability":0.5,     				# instead of some portion of the freighters in a fleet
+		"combatFreighterCombatUseFraction":0.5,				# as part of the normal combat lineup
+		"combatFreighterCombatUseFractionWhenPriority":1,   # as part of normal combat lineup, when marked as priority ship
+		"autofitRandomizeProbability":0.5,
+		"commanderSkillsShuffleProbability":1,
+		"commanderSkills":[
+			"crew_training",
+			"tactical_drills",
+			"officer_training",
+			"coordinated_maneuvers",
+			"electronic_warfare",
+			"fighter_uplink",
+			"carrier_group",
+			"flux_regulation",
+		],
+	},
+	"portraits":{
+		"standard_female":[
+			"graphics/portraits/angelina_siracusa.png",
+			"graphics/portraits/aroma_siracusa.png",
+			"graphics/portraits/lappland_siracusa.png",
+			"graphics/portraits/lappland-decadenza_siracusa.png",
+			"graphics/portraits/lunacub_siracusa.png",
+			"graphics/portraits/penance_siracusa.png",
+			"graphics/portraits/provence_siracusa.png",
+			"graphics/portraits/shamare_siracusa.png",
+			"graphics/portraits/vermeil_siracusa.png",
+			"graphics/portraits/vulpisfoglia_siracusa.png",
+			"graphics/portraits/eirene-lavazza_siracusa.png",
+		],
+		"standard_male":[
+			"graphics/portraits/figurino_siracusa.png",
+			"graphics/portraits/vigil_siracusa.png",
+			"graphics/portraits/alberto-saluzzo_siracusa.png",
+			"graphics/portraits/ben_siracusa.png",
+			"graphics/portraits/bernardo-bellone_siracusa.png",
+			"graphics/portraits/capone_siracusa.png",
+			"graphics/portraits/danbrown-leopardi_siracusa.png",
+			"graphics/portraits/demetri-certaldo_siracusa.png",
+			"graphics/portraits/fabrizio-venezia_siracusa.png",
+			"graphics/portraits/gambino-ricci_siracusa.png",
+			"graphics/portraits/rubio-pacino_siracusa.png",
+			"graphics/portraits/sommer_siracusa.png",
+			"graphics/portraits/umberto-de-montano_siracusa.png",
+			"graphics/portraits/aosta_siracusa.png",
+			"graphics/portraits/broca_siracusa.png",
+			"graphics/portraits/chiave_siracusa.png",
+		],
+	},
+	"fleetTypeNames":{
+	},
+},	

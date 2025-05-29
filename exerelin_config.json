@@ -1,0 +1,6 @@
+{
+	"followersAgents": false,
+    "followersDiplomacy": false,
+    "followersInvasions": false,
+    "maxAgents":2,
+}	

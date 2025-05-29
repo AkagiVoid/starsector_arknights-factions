@@ -1,0 +1,16 @@
+{
+	"id":"zzz_Akagivoid-Arknights-Factions_zzz",
+	"name":"zzz_Akagivoid Arknights Factions_zzz",
+    "utility": "true",
+	"author":"AkagiVoid, credit - Konturga",
+	"version":"0.0.1",
+	"description":"Adds or replaces: Factions logos, Faction names, Personnel PFPs, Personnel Characters images, Personnel Names, Factiosn relations in game when using vanilla start from NEx. >w>",
+    "gameVersion":"0.98a-RC7",
+	"dependencies": [
+        {"id": "lw_lazylib", "name": "LazyLib"},
+        {"id": "MagicLib", "name": "MagicLib"},
+		{"id": "nexerelin", "name": "Nexerelin"},
+		],
+	"jars":["jars/AkagiArknightsTheme.jar"],
+	"modPlugin":"AkagiVoid.AkagiArknightsTheme.scripts.ModPlugin"
+}

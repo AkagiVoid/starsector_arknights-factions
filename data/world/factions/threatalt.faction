@@ -1,0 +1,144 @@
+{
+	id:"threat",
+	"displayName":"Aegir",
+	"displayNameWithArticle":"the Aegir",
+	"displayNameLong":"Aegir",
+	"displayNameLongWithArticle":"the Aegir",
+	"entityNamePrefix":"",
+	"personNamePrefix":"",
+	"personNamePrefixAOrAn":"a",
+	"displayNameIsOrAre":"are",
+	"logo":"graphics/factions/aegir_flag.png",
+	"crest":"graphics/factions/aegir_crest.png",
+	"color":[130,155,145,255],
+	"baseUIColor":[130,155,145,255],
+	"shipNamePrefix":"AGR",
+	"shipNameSources":{
+		"AEGIR":1,
+		"ABYSSALHUNTERS":1,
+	},
+	"names":{
+		"aegir":1,
+		"abyssalhunters":1,
+	},
+	"variantOverrides":{
+	},
+	# multiplier for how often hulls show up in the faction's fleets
+	"hullFrequency":{
+		"tags":{
+		},
+		"hulls":{
+		},
+	},
+	# ships the faction gets access to when importing S&W out-of-faction
+	"shipsWhenImporting":{
+		"tags":["threat"],
+		"hulls":[
+		],
+	},
+	"knownShips":{
+		"tags":["threat"],
+		"hulls":[
+		],
+	},
+	# listing ships here will make the faction mostly use them even if other hulls become available
+	"priorityShips":{
+		"tags":[],
+		"hulls":[
+		],
+	},
+	"knownFighters":{
+		"tags":["threat"],
+		"fighters":[
+		],
+	},
+	"priorityFighters":{
+		"tags":[],
+		"fighters":[
+		],
+	},
+	"knownWeapons":{
+		"tags":["threat"],
+		"weapons":[
+		],
+	},
+	"priorityWeapons":{
+		"tags":[],
+		"weapons":[
+		],
+	},
+	"knownHullMods":{
+		"tags":["standard", "threat"],
+		"hullMods":[
+		],
+	},
+	"factionDoctrine":{
+		"warships":5,
+		"carriers":0,
+		"phaseShips":0,
+		"officerQuality":5,
+		"shipQuality":5,
+		"numShips":1,
+		"shipSize":5,
+		"aggression":2, # gets overridden by AI picker anyway
+		"combatFreighterProbability":0,     				# instead of some portion of the freighters in a fleet
+		"combatFreighterCombatUseFraction":1,				# as part of the normal combat lineup
+		"combatFreighterCombatUseFractionWhenPriority":1,   # as part of normal combat lineup, when marked as priority ship
+		"autofitRandomizeProbability":0.25,
+		"commanderSkillsShuffleProbability":1,
+		"commanderSkills":[
+		],
+	},
+	#"shipRoles":{
+	#},
+	"illegalCommodities":[
+	"drugs",
+	],
+	"music":{
+		"encounter_hostile":"music_threat_encounter_hostile",
+	},	
+	"portraits":{
+		"standard_female":[
+			"graphics/portraits/deepcolor_aegir.png",
+			"graphics/portraits/lucilla_aegir.png",
+			"graphics/portraits/skadi-corrupting-heart_aegir.png",
+			"graphics/portraits/underflow_aegir.png",
+			"graphics/portraits/clementia_aegir.png",
+			"graphics/portraits/horatia_aegir.png",
+			"graphics/portraits/gladiia_abyssal-hunters.png",
+			"graphics/portraits/skadi_abyssal-hunters.png",
+			"graphics/portraits/specter_abyssal-hunters.png",
+			"graphics/portraits/specter-unchained_abyssal-hunters.png",
+			"graphics/portraits/andreana-unchained_abyssal-hunters.png",
+		],
+		"standard_male":[
+			"graphics/portraits/avitus_aegir.png",
+			"graphics/portraits/blandus_aegir.png",
+			"graphics/portraits/ulpianus_abyssal-hunters.png",
+		],
+	},
+	"ranks":{
+		"ranks":{
+		},
+		"posts":{
+		},
+	},
+	"custom":{
+		"engageWhenEvenStrength":true,
+		"allowsTransponderOffTrade":true, # to prevent cargoscan dialog from "patrols"
+		"postsNoBounties":true,
+		"fightToTheLast":true, # order a full assault instead of retreating, in most cases
+		#"noAICoresFromAutomatedDefenses":true,
+		#"officersOnAutomatedDefenses":true,
+		"simulatorData":{
+			"showInSimulatorDevModeOnly":true,
+			"includeCivShipsWithFaction":true,
+			"noOfficers":true,
+		},
+	},	
+	"fleetTypeNames":{
+		"patrolSmall":"First Strike", 
+		"patrolMedium":"Second Strike", 
+		"patrolLarge":"Third Strike", 
+	},
+},
