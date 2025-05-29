@@ -1,0 +1,976 @@
+Credits by AkagiVoid. :3
+Disclaimer: I do NOT own any thing here all i did is copy-n-paste and modify content 2 attempt 2 fit Starsector (Spent like ten days on dis btw). >w<
+
+Note: "portrait_ai"s from girls Frontline btw rest is Arknights. >w>
+
+---<Factions>---
+-->Rhodes Island:
+Images - player_crest-rhodesisland, player_flag-rhodesisland, player_flag-rhodesisland2, player_flag-rhodesisland3. 3
+Crest and Flag from https://arknights.wiki.gg/wiki/Rhodes_Island. >w>
+
+# Portraits
+-[F]
+Amiya by 唯@W https://arknights.wiki.gg/wiki/Amiya. <w<
+Cantabile by small_ryuzaki https://arknights.wiki.gg/wiki/Cantabile,
+Ceobe by LM7 https://arknights.wiki.gg/wiki/Ceobe,
+Ch'en the Holungday by 唯@W https://arknights.wiki.gg/wiki/Ch%27en_the_Holungday,
+Civilight Eterna by Chuzenji https://arknights.wiki.gg/wiki/Civilight_Eterna,
+Click by れおえん https://arknights.wiki.gg/wiki/Click,
+Crownslayer - Skipped as she's already in the "Reunion" faction. OwO
+Dobermann by LLC https://arknights.wiki.gg/wiki/Dobermann,
+Dur-nar by 下野宏铭 https://arknights.wiki.gg/wiki/Dur-nar,
+Entelechia by Ask https://arknights.wiki.gg/wiki/Entelechia,
+Fang the Fire-Sharpened by 下野宏铭 https://arknights.wiki.gg/wiki/Fang_the_Fire-Sharpened,
+Firewatch by aZLing4 https://arknights.wiki.gg/wiki/Firewatch,
+Folinic by m9nokuro https://arknights.wiki.gg/wiki/Folinic,
+Frostleaf by 下野宏铭 https://arknights.wiki.gg/wiki/Frostleaf (My favorite waifu),
+Gavial by LLC https://arknights.wiki.gg/wiki/Gavial,
+Gavial-Invincible by LLC https://arknights.wiki.gg/wiki/Gavial_the_Invincible,
+GreyThroat by m9nokuro https://arknights.wiki.gg/wiki/GreyThroat,
+Heavyrain by aZLing4 https://arknights.wiki.gg/wiki/Heavyrain,
+Hibiscus the Purifier by 下野宏铭 https://arknights.wiki.gg/wiki/Hibiscus_the_Purifier,
+Kal'tsit by 海猫络合物 https://arknights.wiki.gg/wiki/Kal%27tsit,
+Kroos the Keen Glint by 下野宏铭 https://arknights.wiki.gg/wiki/Kroos_the_Keen_Glint,
+Lancet-2 by TOKI https://arknights.wiki.gg/wiki/Lancet-2,
+Lava the Purgatory by 下野宏铭 https://arknights.wiki.gg/wiki/Lava_the_Purgatory,
+Meteorite by TOKI https://arknights.wiki.gg/wiki/Meteorite,
+Mon3tr by 伍秋秋秋秋 https://arknights.wiki.gg/wiki/Mon3tr,
+Mudrock by m9nokuro https://arknights.wiki.gg/wiki/Mudrock (My second Waifu, Used "Elite 2" pfp since her base one hides her face),
+Myrrh by 下野宏铭 https://arknights.wiki.gg/wiki/Myrrh,
+Myrtle by 咩煲 https://arknights.wiki.gg/wiki/Myrtle,
+Nymph by YUJI https://arknights.wiki.gg/wiki/Nymph,
+Paprika by 板板 https://arknights.wiki.gg/wiki/Paprika,
+Perfumer by Lanzi https://arknights.wiki.gg/wiki/Perfumer,
+PhonoR-0 by M1917史密斯维森 https://arknights.wiki.gg/wiki/PhonoR-0,
+Podenco by アシマ https://arknights.wiki.gg/wiki/Podenco,
+Pozemka by Chuzenji https://arknights.wiki.gg/wiki/Poz%C3%ABmka,
+Quercus by YUJI https://arknights.wiki.gg/wiki/Quercus,
+Surtr by Ask https://arknights.wiki.gg/wiki/Surtr,
+Sussurro by 将 https://arknights.wiki.gg/wiki/Sussurro,
+U-Official by 折射镜 https://arknights.wiki.gg/wiki/U-Official,
+Warfarin by 时辰 https://arknights.wiki.gg/wiki/Warfarin,
+Weedy by 下野宏铭 https://arknights.wiki.gg/wiki/Weedy,
+Blaze by 唯@W https://arknights.wiki.gg/wiki/Blaze,
+Blaze the Igniting Spark by Mag42 https://arknights.wiki.gg/wiki/Blaze_the_Igniting_Spark,
+Rosmontis by 唯@W https://arknights.wiki.gg/wiki/Rosmontis,
+Nearl by 竜崎いち https://arknights.wiki.gg/wiki/Nearl,
+Nightingale by Skade https://arknights.wiki.gg/wiki/Nightingale,
+Shining by 竜崎いち https://arknights.wiki.gg/wiki/Shining,
+Durin by Skade https://arknights.wiki.gg/wiki/Durin,
+Kirin R Yato by 一千 https://arknights.wiki.gg/wiki/Kirin_R_Yato,
+Yato by Skade https://arknights.wiki.gg/wiki/Yato,
+Beagle by 下野宏铭 https://arknights.wiki.gg/wiki/Beagle,
+Fang by 下野宏铭 https://arknights.wiki.gg/wiki/Fang,
+Kroos by 下野宏铭 https://arknights.wiki.gg/wiki/Kroos_the_Keen_Glint,
+Lava by 下野宏铭 https://arknights.wiki.gg/wiki/Lava,
+Cardigan by 一立里子 https://arknights.wiki.gg/wiki/Cardigan,
+Melantha by 一立里子 https://arknights.wiki.gg/wiki/Melantha (My favorite waifu PET. :3),
+Catapult by m9nokuro https://arknights.wiki.gg/wiki/Catapult,
+Orchid by Skade https://arknights.wiki.gg/wiki/Orchid,
+Popukar by 下野宏铭 https://arknights.wiki.gg/wiki/Popukar,
+Ascalon by Cenm0 https://arknights.wiki.gg/wiki/Ascalon,
+Projekt Red by infukun https://arknights.wiki.gg/wiki/Projekt_Red,
+Scavenger by 戏言咸咸 https://arknights.wiki.gg/wiki/Scavenger,
+Ash by m9nokuro https://arknights.wiki.gg/wiki/Ash,
+Ela by 〇亻 https://arknights.wiki.gg/wiki/Ela,
+Iana by Ubisoft https://arknights.wiki.gg/wiki/Iana,
+Outcast by Cenm0 https://arknights.fandom.com/wiki/Outcast. <w<
+
+-[M]
+Doctor by ??? https://arknights.wiki.gg/wiki/Doctor. >w>
+12F by 海猫络合物 https://arknights.wiki.gg/wiki/12F,
+Castle-3 by https://arknights.wiki.gg/wiki/Castle-3,
+Chestnut by 树豚 https://arknights.wiki.gg/wiki/Chestnut,
+Elysium by Skade https://arknights.wiki.gg/wiki/Elysium,
+Ethan by 阿鬼 https://arknights.wiki.gg/wiki/Ethan,
+Flamebringer by 虎三 https://arknights.wiki.gg/wiki/Flamebringer,
+Friston-3 by 过失帝国 https://arknights.wiki.gg/wiki/Friston-3,
+Greyy the Lightningbearer by 我妻洛酱 https://arknights.wiki.gg/wiki/Greyy_the_Lightningbearer,
+Humus by 我妻洛酱 https://arknights.wiki.gg/wiki/Humus,
+Mitm by 〇亻 https://arknights.wiki.gg/wiki/Mitm,
+Odda by 我妻洛酱 https://arknights.wiki.gg/wiki/Odda,
+Thrm-Ex by TOKI https://arknights.wiki.gg/wiki/THRM-EX,
+Logos by Skade https://arknights.wiki.gg/wiki/Logos,
+Noir Corne by 竜崎いち https://arknights.wiki.gg/wiki/Noir_Corne,
+Rangers by 竜崎いち https://arknights.wiki.gg/wiki/Rangers,
+Rathalos S Noir Corne by 九日九号 https://arknights.wiki.gg/wiki/Rathalos_S_Noir_Corne,
+Adnachiel by 一立里子 https://arknights.wiki.gg/wiki/Adnachiel,
+Ansel by 一立里子 https://arknights.wiki.gg/wiki/Ansel,
+Steward by 一立里子 https://arknights.wiki.gg/wiki/Steward (Fluffy tail),
+Midnight by 竜崎いち https://arknights.wiki.gg/wiki/Midnight,
+Spot by 阿鬼 https://arknights.wiki.gg/wiki/Spot,
+Blitz by Liduke https://arknights.wiki.gg/wiki/Blitz,
+Doc by Ubisoft https://arknights.wiki.gg/wiki/Doc,
+Fuze by Ubisoft https://arknights.wiki.gg/wiki/Fuze,
+Tachanka by Cenm0 https://arknights.wiki.gg/wiki/Tachanka. >w>
+
+# Characters-
+[F]
+
+[M]
+
+
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+-->Reunion:
+Images - reunion_crest, reunion_flag. :3
+Crest and Flag from https://arknights.wiki.gg/wiki/Reunion. <w<
+
+# Portraits
+-[F]
+Alina by Kumatan(n) https://arknights.fandom.com/wiki/Alina,
+Crownslayer by 海猫络合物 https://arknights.wiki.gg/wiki/Crownslayer,
+FrostNova by 唯@W https://arknights.fandom.com/wiki/FrostNova,
+Misha by 唯@W https://arknights.fandom.com/wiki/Misha,
+Percival by ??? https://arknights.fandom.com/wiki/Percival. >w>
+
+-[M]
+Big Bob by 唯@W https://arknights.fandom.com/wiki/Big_Bob
+Faust by 唯@W https://arknights.fandom.com/wiki/Faust,
+Guard by ??? https://arknights.fandom.com/wiki/Guard_(NPC),
+Kevin by ??? https://arknights.wiki.gg/wiki/Kevin,
+Mephisto 唯@W https://arknights.fandom.com/wiki/Mephisto,
+Skullshatterer by ??? https://arknights.fandom.com/wiki/Skullshatterer,
+Patriot by 唯@W https://arknights.fandom.com/wiki/Patriot,
+Red by 我妻洛酱 https://arknights.fandom.com/wiki/Red_(NPC). <w<
+
+# Characters
+-[F]
+Nine by 唯@W https://arknights.fandom.com/wiki/Nine,
+Talulah by 唯@W https://arknights.fandom.com/wiki/Talulah. >w>
+
+-[M]
+
+
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+-->Kazdel:
+Images - kazdel_crest, kazdel_flag. :3
+Crest and Flag from https://arknights.wiki.gg/wiki/Kazdel. <w<
+
+# Portraits
+-[F]
+Crowniemantel by ??? https://arknights.wiki.gg/wiki/Crownie_Mantel,
+Ermengarda by Chuzenji https://arknights.fandom.com/wiki/Ermengarda,
+Laqeramaline by ??? https://arknights.wiki.gg/wiki/Laqeramaline,
+Nadine by https://arknights.wiki.gg/wiki/Nadine,
+Qalaisa by https://arknights.wiki.gg/wiki/Qalai%C5%A1a,
+Salus by ??? https://arknights.wiki.gg/wiki/Salus. >w>
+
+-[M]
+Confessarius by https://arknights.fandom.com/wiki/Confessarius,
+Fremont by ??? https://arknights.wiki.gg/wiki/Fremont,
+Hoederer by 树豚 https://arknights.wiki.gg/wiki/Hoederer,
+Manfred by ??? https://arknights.fandom.com/wiki/Manfred,
+Qalidcoa by ??? https://arknights.wiki.gg/wiki/Qalid%27%C4%8Doa,
+Quisartustaj by ??? https://arknights.wiki.gg/wiki/Qui%27sartu%C5%A1taj,
+Sanguinarch by Chuzenji https://arknights.fandom.com/wiki/Sanguinarch,
+Theresis by Liduke https://arknights.fandom.com/wiki/Theresis. <w<
+
+-[F/M]
+damazticluster by ??? https://arknights.fandom.com/wiki/Damazti_Cluster. >w>
+
+# Characters-
+-[F]
+
+-[M]
+Nachzehrer by ??? https://arknights.wiki.gg/wiki/Nezzsalem. >w>
+
+
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+-->Tara Dublinn:
+Images - tara_crest, tara_flag. :3
+Crest and Flag from https://arknights.wiki.gg/wiki/Tara. <w<
+
+# Portraits
+-[F]
+Brigid by Yukuso https://arknights.wiki.gg/wiki/Brigid,
+Reed by STAR影法师 https://arknights.wiki.gg/wiki/Reed,
+Reed the Flame Shadow by STAR影法师 https://arknights.wiki.gg/wiki/Reed_the_Flame_Shadow,
+Moran by ??? https://arknights.wiki.gg/wiki/Moran,
+Nemed by ??? https://arknights.wiki.gg/wiki/Nemed,
+Selmon by ??? https://arknights.wiki.gg/wiki/Selmon,
+Harmonie by STAR影法师 https://arknights.fandom.com/wiki/Harmonie.>w>
+
+-[M]
+Duke of Wellington by 我妻洛酱 https://arknights.fandom.com/wiki/Duke_of_Wellington,
+The Brigadier by https://arknights.fandom.com/wiki/The_Brigadier,
+Chulainn by ??? https://arknights.wiki.gg/wiki/Chulainn,
+Fionn by ??? https://arknights.wiki.gg/wiki/Fionn,
+La-Breithe by ??? https://arknights.wiki.gg/wiki/L%C3%A1-Breithe. <w<
+
+# Characters
+-[F]
+Necrass by STAR影法师 https://arknights.wiki.gg/wiki/Necrass. >w>
+
+-[M]
+
+
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+-->Victoria:
+Notes: NPCs without official names was skipped ex: "The Duke of Caster" and added em as ship names like "Caster". >w>
+Since Glasgow doesn't have many members and is under Victoria major faction, I added the leader "Siege" and formal leader "Indra" 2 its random npc generation pool. X3
+
+Images: victoria_crest and victoria_flag. :3
+Crest and Flag from https://arknights.wiki.gg/wiki/Victoria, https://arknights.wiki.gg/wiki/Glasgow. >w<
+
+# Portraits
+-[F]
+Bagpipe by U介 https://starsector.wiki.gg/wiki/Threat# Ships,
+Bena by 下野宏铭 https://arknights.wiki.gg/wiki/Bena,
+Breeze by 藻 https://arknights.wiki.gg/wiki/Breeze,
+Catherine by small_ryuzaki https://arknights.wiki.gg/wiki/Catherine,
+Delphine by Cenm0 https://arknights.wiki.gg/wiki/Delphine,
+Goldenglow by Namie https://arknights.wiki.gg/wiki/Goldenglow,
+Grani by alchemaniac https://arknights.wiki.gg/wiki/Grani,
+Haze by Skade https://arknights.wiki.gg/wiki/Haze,
+Heidi by Kumatangent https://arknights.wiki.gg/wiki/Heidi,
+Horn by m9nokuro https://arknights.wiki.gg/wiki/Horn,
+Iris by 下野宏铭 https://arknights.wiki.gg/wiki/Iris,
+May by 下野宏铭 https://arknights.wiki.gg/wiki/May,
+Mint by ヌードル https://arknights.wiki.gg/wiki/Mint,
+Mousse by Iritoa https://arknights.wiki.gg/wiki/Mousse,
+Nightmare by Lpip https://arknights.wiki.gg/wiki/Nightmare,
+Rockrock by Cenm0 https://arknights.wiki.gg/wiki/Rockrock,
+Saileach by 下野宏铭 https://arknights.wiki.gg/wiki/Saileach,
+Skyfire by TOKI https://arknights.wiki.gg/wiki/Skyfire,
+Toddifons by 山x2 https://arknights.wiki.gg/wiki/Toddifons,
+Vendela by Studio Montagne https://arknights.wiki.gg/wiki/Vendela,
+Diana Weber by ??? https://arknights.wiki.gg/wiki/Diane_Weber,
+Amphelise by ??? https://arknights.wiki.gg/wiki/Duke_of_Windermere,
+Eleanor by ??? https://arknights.wiki.gg/wiki/Earl_of_March,
+Golding by ??? https://arknights.wiki.gg/wiki/Golding,
+Ailshie by ??? https://arknights.wiki.gg/wiki/Ailshie,
+Molly by ??? https://arknights.wiki.gg/wiki/Molly,
+# Glasgow,
+Indra by Infukun https://arknights.wiki.gg/wiki/Indra,
+Morgan by Infukun https://arknights.wiki.gg/wiki/Morgan,
+Baird by ??? https://arknights.wiki.gg/wiki/Baird,
+Dagba by Infukun https://arknights.wiki.gg/wiki/Dagda. <w<
+-[M]
+Harold by 一千 https://arknights.wiki.gg/wiki/Harold,
+Nowell by 板板 https://arknights.wiki.gg/wiki/Nowell,
+Phantom by Skade https://arknights.wiki.gg/wiki/Phantom,
+Puzzle by kan https://arknights.wiki.gg/wiki/Puzzle,
+Shalem by Cenm0 https://arknights.wiki.gg/wiki/Shalem,
+Stainless by 一千 https://arknights.wiki.gg/wiki/Stainless,
+Verdant by 百慕大飞鱼 https://arknights.wiki.gg/wiki/Verdant,
+Charles Lynch by ??? https://arknights.wiki.gg/wiki/Charles_Lynch,
+Sean by ??? https://arknights.wiki.gg/wiki/Duke_of_Gododdin,
+Edgar Everett Erikson by ??? https://arknights.wiki.gg/wiki/E._E._Erikson,
+Hamilton by ??? https://arknights.wiki.gg/wiki/Hamilton,
+Lettou by ??? https://arknights.wiki.gg/wiki/Lettou,
+Louis Kelly by ??? https://arknights.wiki.gg/wiki/Louis_Kelly,
+Shearer by ??? https://arknights.wiki.gg/wiki/Shearer,
+Vincent by ??? https://arknights.wiki.gg/wiki/Vincent,
+# Glasgow,
+Gawain by ??? https://arknights.wiki.gg/wiki/Gawain. >w>
+
+# Characters
+-[F]
+Vina Victoria by Studio Montagne https://arknights.wiki.gg/wiki/Vina_Victoria. <w<
+Siege by Infukun https://arknights.wiki.gg/wiki/Siege,
+
+-[M]
+
+
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+-->Sami:
+Note: No central leader was ever found in the wiki. OwO
+
+Images: sami_crest.png and sami_flag.png. :3
+Crest and Flag from https://arknights.wiki.gg/wiki/Sami. >w<
+
+# Portraits
+-[F]
+Bibeak by RAYVON https://arknights.fandom.com/wiki/Bibeak,
+Gitano by 迷肘 https://arknights.fandom.com/wiki/Gitano,
+Santalla by Studio Montagne https://arknights.fandom.com/wiki/Santalla,
+Typhon by LM7 https://arknights.fandom.com/wiki/Typhon,
+Valarqvin by 伍秋秋秋秋 https://arknights.fandom.com/wiki/Valarqvin. >w>
+
+-[M]
+Qanipalaat by 三目YYB https://arknights.fandom.com/wiki/Qanipalaat,
+Eikþyrnir by ??? https://arknights.fandom.com/wiki/Eik%C3%BEyrnir. <w<
+
+
+# Characters
+-[F]
+
+-[M]
+
+
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+-->Kazimierz:
+Note: Left out "Corrupted Knight" and "Withered Knight" as in the lore, their both outcasts, and I feel dat their attire doesn't match the faction anyway. >w>
+Images: kazimierz_crest.png and kazimierz_flag.png. :3
+Crest and Flag from https://arknights.wiki.gg/wiki/Kazimierz. >w<
+
+# Portraits
+-[F]
+Blemishine by 竜崎いち https://arknights.wiki.gg/wiki/Blemishine,
+Gravel by 竜崎いち https://arknights.wiki.gg/wiki/Gravel,
+Meteor by HUG https://arknights.wiki.gg/wiki/Meteor,
+Nearl the Radiant Knight by 竜崎いち https://arknights.wiki.gg/wiki/Nearl_the_Radiant_Knight,
+Platinum by Skade https://arknights.wiki.gg/wiki/Platinum,
+Proviso by せんむ https://arknights.wiki.gg/wiki/Proviso,
+Whislash by 竜崎いち https://arknights.wiki.gg/wiki/Whislash,
+Carol by 竜崎いち https://arknights.fandom.com/wiki/Carol. <w<
+
+-[M]
+Mlynar by 竜崎いち https://arknights.wiki.gg/wiki/M%C5%82ynar,
+Czcibor by 竜崎いち https://arknights.fandom.com/wiki/Czcibor,
+Kowal by 竜崎いち https://arknights.fandom.com/wiki/Kowal,
+Marcin by 竜崎いち https://arknights.fandom.com/wiki/Marcin,
+Mob by NoriZC https://arknights.fandom.com/wiki/Mob,
+Olmer Ingra by 竜崎いち https://arknights.fandom.com/wiki/Olmer_Ingra,
+Szewczyk by ??? https://arknights.wiki.gg/wiki/Szewczyk,
+Toland Cash by ??? https://arknights.wiki.gg/wiki/Toland_Cash,
+Tytus Topola by ??? https://arknights.wiki.gg/wiki/Tytus_Topola,
+Vogelweide by ??? https://arknights.wiki.gg/wiki/Vogelweide. >w>
+
+# Characters
+-[F]
+
+-[M]
+
+
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+-->Pinus Sylvestris:
+Images: pinus-sylvestris_crest.png and pinus-sylvestris_flag.png. :3
+Crest and Flag from https://arknights.wiki.gg/wiki/Pinus_Sylvestris. >w<
+
+# Portraits
+-[F]
+Ashlock by NoriZC https://arknights.fandom.com/wiki/Ashlock,
+Fartooth by NoriZC https://arknights.fandom.com/wiki/Fartooth,
+Justice Knight by NoriZC https://arknights.wiki.gg/wiki/Justice_Knight,
+Wild Mane by NoriZC https://arknights.wiki.gg/wiki/Wild_Mane.<w<
+
+-[M]
+
+# Characters
+-[F]
+Flametail by NoriZC https://arknights.fandom.com/wiki/Flametail. >w>
+
+-[M]
+
+
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+-->Rim Billiton:
+Images: rim-billiton_crest.png and rim-billiton_flag.png. :3
+Crest and Flag from https://arknights.wiki.gg/wiki/Rim_Billiton. >w<
+
+# Portraits
+-[F]
+Alanna by 百慕大飞鱼 https://arknights.wiki.gg/wiki/Alanna,
+April by れおえん https://arknights.wiki.gg/wiki/April,
+Asbestos by TEAM EXPNDR https://arknights.wiki.gg/wiki/Asbestos,
+Blacknight by 温泉瓜 https://arknights.wiki.gg/wiki/Blacknight,
+Cement by 科学 https://arknights.wiki.gg/wiki/Cement,
+Firewhistle by IRIS_口艺 https://arknights.wiki.gg/wiki/Firewhistle,
+Honeyberry by Liyu黎 https://arknights.wiki.gg/wiki/Honeyberry,
+Ray by Cenm0 https://arknights.wiki.gg/wiki/Ray,
+Savage by TOKI https://arknights.wiki.gg/wiki/Savage,
+Warmy by 二色こぺ https://arknights.wiki.gg/wiki/Warmy. <w<
+
+-[M]
+Ayerscarpe by NoriZC https://arknights.wiki.gg/wiki/Ayerscarpe,
+Leonhardt by 野崎つばた https://arknights.wiki.gg/wiki/Leonhardt. >w>
+
+
+# Characters
+-[F]
+
+-[M]
+
+
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+-->Karlan Trade:
+Images: karlan-trade_crest.png and karlan-trade_flag.png. :3
+Crest and Flag from https://arknights.fandom.com/wiki/Karlan_Trade. >w<
+
+# Portraits
+-[F]
+Degenbrecher by 竜崎いち https://arknights.wiki.gg/wiki/Degenbrecher,
+Monch by ??? https://arknights.wiki.gg/wiki/Monch,
+Aurora by LAL!ROLE https://arknights.wiki.gg/wiki/Aurora,
+Cliffheart by 竜崎いち https://arknights.wiki.gg/wiki/Cliffheart,
+Kjera by 竜崎いち https://arknights.wiki.gg/wiki/Kjera,
+Pramanix by 竜崎いち https://arknights.wiki.gg/wiki/Pramanix. <w<
+
+-[M]
+Gnosis by 竜崎いち https://arknights.wiki.gg/wiki/Gnosis,
+Courier by 竜崎いち https://arknights.wiki.gg/wiki/Courier,
+Matterhorn by 竜崎いち https://arknights.wiki.gg/wiki/Matterhorn,
+Chester by 竜崎いち https://arknights.fandom.com/wiki/Chester. >w>
+
+# Characters
+-[F]
+
+-[M]
+SilverAsh by 竜崎いち https://arknights.fandom.com/wiki/SilverAsh. <w<
+
+
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+-->Columbia:
+Note: Skips "Janet Longfellow" as theres no proper image of him besides a manga one. XwX
+Images: columbia_crest.png and columbia_flag.png. :3
+Crest and Flag from (URL). >w<
+
+# Portraits
+-[F]
+Aciddrop by Lanzi https://arknights.wiki.gg/wiki/Aciddrop,
+Astesia by YUJI https://arknights.wiki.gg/wiki/Astesia,
+Beanstalk by 一千 https://arknights.wiki.gg/wiki/Beanstalk,
+Coldshot by Mag42 https://arknights.wiki.gg/wiki/Coldshot,
+Contrail by 虬墨一型 https://arknights.wiki.gg/wiki/Contrail,
+Cutter by 下野宏铭 https://arknights.wiki.gg/wiki/Cutter,
+Ho-olheyak by LM7 https://arknights.wiki.gg/wiki/Ho%27olheyak,
+Jackie by Nagu https://arknights.wiki.gg/wiki/Jackie,
+Kafka by NoriZC https://arknights.wiki.gg/wiki/Kafka,
+Melanite by Redjuice https://arknights.wiki.gg/wiki/Melanite,
+Pinecone by TrNyteal https://arknights.wiki.gg/wiki/Pinecone,
+Pudding by 折射镜 https://arknights.wiki.gg/wiki/Pudding,
+Quartz by 伍秋秋秋秋 https://arknights.wiki.gg/wiki/Quartz,
+Robin by aZLing4 https://arknights.wiki.gg/wiki/Robin,
+Byrd by ??? https://arknights.wiki.gg/wiki/Byrd,
+Domma by ??? https://arknights.wiki.gg/wiki/Domma,
+Mary Banner by ??? https://arknights.wiki.gg/wiki/Mary_Banner,
+Sylvia by ??? https://arknights.wiki.gg/wiki/Sylvia,
+# BlackSteel,
+Franka by TOKI https://arknights.wiki.gg/wiki/Franka,
+Liskarm by TOKI https://arknights.wiki.gg/wiki/Liskarm,
+Jessica by m9nokuro https://arknights.wiki.gg/wiki/Jessica,
+Jessica the Liberated by https://arknights.wiki.gg/wiki/Jessica_the_Liberated,
+Vanilla by m9nokuro https://arknights.wiki.gg/wiki/Vanilla,
+Almond by 直立行走 https://arknights.wiki.gg/wiki/Almond,
+Surfer by れおえん https://arknights.wiki.gg/wiki/Surfer,
+# Rhine Lab,
+Muelsyse by NoriZC https://arknights.fandom.com/wiki/Muelsyse,
+Dorothy by Jacknife https://arknights.fandom.com/wiki/Dorothy,
+Jara B. Wilson by NoriZC https://arknights.fandom.com/wiki/Jara_B._Wilson,
+Nasti Lundrey by NoriZC https://arknights.fandom.com/wiki/Nasti_Lundrey,
+Astgenne by YUJI https://arknights.fandom.com/wiki/Astgenne,
+Ifrit by NoriZC https://arknights.fandom.com/wiki/Ifrit,
+Magallan by NoriZC https://arknights.fandom.com/wiki/Magallan,
+Mayer by 幻象黑兔 https://arknights.fandom.com/wiki/Mayer,
+Ptilopsis by 竜崎いち https://arknights.fandom.com/wiki/Ptilopsis,
+Silence by NoriZC https://arknights.fandom.com/wiki/Silence,
+Silence the Paradigmatic by NoriZC https://arknights.fandom.com/wiki/Silence_the_Paradigmatic. >w>
+
+-[M]
+Bobbing by HUG https://arknights.wiki.gg/wiki/Bobbing,
+Corroserum by Jacknife https://arknights.wiki.gg/wiki/Corroserum,
+Mountain by WincalBlanke https://arknights.wiki.gg/wiki/Mountain,
+Tin Man by 树豚 https://arknights.wiki.gg/wiki/Tin_Man,
+Windflit by Nineo https://arknights.wiki.gg/wiki/Windflit,
+Benny by ??? https://arknights.wiki.gg/wiki/Benny,
+Jesselton Williams by ??? https://arknights.wiki.gg/wiki/Jesselton_Williams,
+Jerry by ??? https://arknights.wiki.gg/wiki/Jerry,
+Leone Theremin by ??? https://arknights.wiki.gg/wiki/Leone_Theremin,
+Loken Williams by ??? https://arknights.wiki.gg/wiki/Loken_Williams,
+Miles by ??? https://arknights.wiki.gg/wiki/Miles,
+Sonny Romano by ??? https://arknights.wiki.gg/wiki/Sonny_Romano,
+# Rhine Lab,
+Ahrens Parvis by NoriZC https://arknights.fandom.com/wiki/Ahrens_Parvis,
+Ferdinand Clooney by NoriZC https://arknights.fandom.com/wiki/Ferdinand_Clooney,
+Justin Fitzroy, Jr. by NoriZC https://arknights.fandom.com/wiki/Justin_Fitzroy,_Jr. . <w<
+
+# Characters
+-[F]
+# Rhine Lab,
+Saria by NoriZC https://arknights.fandom.com/wiki/Saria,
+Kristen Wright by NoriZC https://arknights.fandom.com/wiki/Kristen_Wright. >w>
+
+-[M]
+Mark Max by ??? https://arknights.wiki.gg/wiki/Mark_Max,
+Conrad Jackson by ??? https://arknights.wiki.gg/wiki/Conrad_Jackson,
+# BlackSteel,
+Cliff by ??? https://arknights.wiki.gg/wiki/Cliff. <w<
+
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+-->Sargon:
+Note: No PFP of the leader btw and wiki says he's a powerless leader anyway. >w>
+Images: sargon_crest.png and sargon_flag.png. :3
+Crest and Flag from https://arknights.fandom.com/wiki/Sargon. >w<
+
+# Portraits
+-[F]
+Beeswax by カワグチ https://arknights.fandom.com/wiki/Beeswax,
+Bubble by Cenm0 https://arknights.fandom.com/wiki/Bubble,
+Estelle by 鸭 https://arknights.fandom.com/wiki/Estelle,
+Eunectes by Liduke https://arknights.fandom.com/wiki/Eunectes,
+Flint by aZLing4 https://arknights.fandom.com/wiki/Flint,
+Manticore by 竜崎いち https://arknights.fandom.com/wiki/Manticore,
+Scene by アシマ https://arknights.fandom.com/wiki/Scene,
+Tomimi by Chuzenji https://arknights.fandom.com/wiki/Tomimi,
+Tuye by aZLing4 https://arknights.fandom.com/wiki/Tuye,
+Inam by aZLing4 https://arknights.fandom.com/wiki/Inam,
+Kestrel by 釜飯轟々丸 https://arknights.wiki.gg/wiki/Kestrel,
+Narantuya by 板板 https://arknights.wiki.gg/wiki/Narantuya,
+Papyrus by 温泉瓜 https://arknights.wiki.gg/wiki/Papyrus,
+Pepe by Namie https://arknights.wiki.gg/wiki/Pepe,
+Philae by Horin https://arknights.wiki.gg/wiki/Philae,
+Wulfenite by 臼 https://arknights.wiki.gg/wiki/Wulfenite,
+Ajani by ??? https://arknights.wiki.gg/wiki/Ajani,
+Ajazi by ??? https://arknights.wiki.gg/wiki/Ajazi,
+Medjehtiqedti by ??? https://arknights.wiki.gg/wiki/Medjehtiqedti,
+Picale Tulla by ??? https://arknights.wiki.gg/wiki/Picale_Tulla,
+The Treasure Hunter by ??? https://arknights.wiki.gg/wiki/The_Treasure_Hunter. >w>
+
+-[M]
+Sand Reckoner by 一千 https://arknights.wiki.gg/wiki/Sand_Reckoner,
+Sesa by 竜崎いち https://arknights.wiki.gg/wiki/Sesa,
+Totter by 板板 https://arknights.wiki.gg/wiki/Totter,
+Drudge Tulla by ??? https://arknights.wiki.gg/wiki/Drudge_Tulla,
+High Priest by ??? https://arknights.wiki.gg/wiki/High_Priest,
+Miarow by ??? https://arknights.wiki.gg/wiki/Miarow,
+Mio by ??? https://arknights.wiki.gg/wiki/Mio,
+Old Isin by ??? https://arknights.wiki.gg/wiki/Old_Isin,
+Woof by ??? https://arknights.wiki.gg/wiki/Woof,
+Zubayr by ??? https://arknights.wiki.gg/wiki/Zubayr,
+Minimalist by 〇亻 https://arknights.wiki.gg/wiki/Minimalist,
+Passenger by Skade https://arknights.wiki.gg/wiki/Passenger. <w<
+
+# Characters
+-[F]
+
+-[M]
+
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+-->Ursus:
+Note: No PFP 4 leader. TwT
+Images: ursus_crest.png and ursus_flag.png. :3
+Crest and Flag from https://arknights.wiki.gg/wiki/Ursus. >w<
+
+# Portraits - operators and/or npcs
+-[F]
+Absinthe by aZLing4 https://arknights.wiki.gg/wiki/Absinthe,
+Beehunter by toast https://arknights.wiki.gg/wiki/Beehunter,
+Koshelna by ??? https://arknights.wiki.gg/wiki/Deathless_Black_Snake,
+Lillia by ??? https://arknights.wiki.gg/wiki/Lillia,
+Tatyana Larina by ??? https://arknights.wiki.gg/wiki/Tatyana_Larina,
+Tatiana by ??? https://arknights.fandom.com/wiki/Ursus_(country),
+# U.S.S.G.,
+Gummy by Skade https://arknights.fandom.com/wiki/Gummy,
+Istina by Skade https://arknights.fandom.com/wiki/Istina,
+Rosa by Skade https://arknights.fandom.com/wiki/Rosa,
+Zima by Skade https://arknights.fandom.com/wiki/Zima,
+Leto by Skade https://arknights.fandom.com/wiki/Leto. >w>
+
+-[M]
+Hellagur by Liduke https://arknights.wiki.gg/wiki/Hellagur,
+Islam Witte by ??? https://arknights.wiki.gg/wiki/Islam_Witte,
+Deathless Black Snake by ??? https://arknights.wiki.gg/wiki/Deathless_Black_Snake,
+Vanya by ??? https://arknights.wiki.gg/wiki/Vanya,
+Emperor's Blades by ??? https://arknights.fandom.com/wiki/Emperor%27s_Blade. <w<
+
+# Characters - leaders
+-[F]
+
+-[M]
+
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+-->Aegir and Abyssal Hunters:
+Note: Nu leaders was found. >w>
+Images: aegir_crest.png and aegir_flag.png. :3
+Crest and Flag from https://arknights.wiki.gg/wiki/Aegir, https://arknights.wiki.gg/wiki/Abyssal_Hunters. >w<
+
+# Portraits - operators and/or npcs
+-[F]
+Deepcolor by REALMBW https://arknights.wiki.gg/wiki/Deepcolor,
+Lucilla by 色塩 https://arknights.wiki.gg/wiki/Lucilla,
+Skadi the Corrupting Heart by alchemaniac https://arknights.wiki.gg/wiki/Skadi_the_Corrupting_Heart,
+Underflow by 〇亻 https://arknights.wiki.gg/wiki/Underflow,
+Clementia by ??? https://arknights.wiki.gg/wiki/Clementia,
+Horatia by ??? https://arknights.wiki.gg/wiki/Horatia,
+# Abyssal Hunters,
+Gladiia by Chuzenji https://arknights.wiki.gg/wiki/Gladiia,
+Skadi by alchemaniac https://arknights.wiki.gg/wiki/Skadi,
+Specter by Skade https://arknights.wiki.gg/wiki/Specter,
+Specter the Unchained by Skade https://arknights.wiki.gg/wiki/Specter_the_Unchained,
+Andreana by https://arknights.wiki.gg/wiki/Andreana. >w>
+
+-[M]
+Avitus by ??? https://arknights.wiki.gg/wiki/Avitus,
+Blandus by ??? https://arknights.wiki.gg/wiki/Blandus,
+# Abyssal Hunters,
+Ulpianus by Skade https://arknights.wiki.gg/wiki/Ulpianus. <w<
+
+
+# Characters - leaders
+-[F]
+
+-[M]
+
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+-->Babel and Bolivar:
+Images: babel_crest.png and babel_flag.png. :3
+Crest and Flag from https://arknights.wiki.gg/wiki/Ines. >w<
+
+# Portraits - operators and/or npcs
+-[F]
+Ines by 板板 https://arknights.wiki.gg/wiki/Ines,
+W by 海猫络合物 https://arknights.wiki.gg/wiki/W,
+Wiš'adel by Liduke https://arknights.wiki.gg/wiki/Wi%C5%A1%27adel,
+# Bolivar,
+Caper by 臼 https://arknights.wiki.gg/wiki/Caper,
+La Pluma by LAL!ROLE https://arknights.wiki.gg/wiki/La_Pluma,
+Lutonada by 水滴鱼 https://arknights.wiki.gg/wiki/Lutonada,
+Tecno by 水滴鱼 https://arknights.wiki.gg/wiki/Tecno. >w>
+
+
+-[M]
+# Bolivar,
+Greyy by 我妻洛酱 https://arknights.wiki.gg/wiki/Greyy,
+Tequila by 一千 https://arknights.wiki.gg/wiki/Tequila. <w<
+
+# Characters - leaders
+-[F]
+
+-[M]
+
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+-->Siesta
+Images: siesta_crest.png and siesta_flag.png. :3
+Crest and Flag from https://arknights.wiki.gg/wiki/Siesta. >w<
+
+# Portraits - operators and/or npcs
+-[F]
+Schwarz by Liduke https://arknights.wiki.gg/wiki/Schwarz,
+Poncirus by NOCO https://arknights.wiki.gg/wiki/Poncirus,
+Ceylon by Skade https://arknights.wiki.gg/wiki/Ceylon,
+Liv by ??? https://arknights.wiki.gg/wiki/Liv_%26_Lut,
+Harley by ??? https://arknights.wiki.gg/wiki/Harley. >w>
+
+-[M]
+Bryophyta by Cenm0 https://arknights.wiki.gg/wiki/Bryophyta,
+Adele Keller by ??? https://arknights.wiki.gg/wiki/Adele_Keller,
+Costa by ??? https://arknights.wiki.gg/wiki/Costa,
+Lut by ??? https://arknights.wiki.gg/wiki/Liv_%26_Lut,
+Pelipper Brown by ??? https://arknights.wiki.gg/wiki/Pelipper_Brown. <w<
+
+# Characters - leaders
+-[F]
+
+-[M]
+Herman Doykos by ??? https://arknights.wiki.gg/wiki/Herman_Doykos. >w>
+
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+-->Lungman:
+Images: lungmen_crest.png and lungmen_flag.png. :3
+Crest and Flag from https://arknights.wiki.gg/wiki/Lungmen_Guard_Department, https://arknights.wiki.gg/wiki/Lee%27s_Detective_Agency, https://arknights.wiki.gg/wiki/Lungmen_Guard_Department. >w<
+
+# Portraits - operators and/or npcs
+-[F]
+Feater by RAN https://arknights.wiki.gg/wiki/FEater,
+Lin by 三目YYB https://arknights.wiki.gg/wiki/Lin,
+Rope by m9nokuro https://arknights.fandom.com/wiki/Rope,
+Snowsant by NoriZC https://arknights.wiki.gg/wiki/Snowsant,
+Swire the Elegant Wit by 下野宏铭 https://arknights.wiki.gg/wiki/Swire_the_Elegant_Wit,
+Fumizuki by ??? https://arknights.wiki.gg/wiki/Fumizuki,
+Waai Fu by KuroBlood https://arknights.fandom.com/wiki/Waai_Fu,
+Ch'en by 唯@W https://arknights.fandom.com/wiki/Ch%27en,
+Hoshiguma by https://arknights.fandom.com/wiki/Hoshiguma,
+Texas by 幻象黑兔 https://arknights.wiki.gg/wiki/Texas,
+Texas the Omertosa by 幻象黑兔 https://arknights.wiki.gg/wiki/Texas_the_Omertosa,
+Exusiai by 幻象黑兔 https://arknights.wiki.gg/wiki/Exusiai,
+Mostima by 幻象黑兔 https://arknights.wiki.gg/wiki/Mostima,
+Croissant by 幻象黑兔 https://arknights.wiki.gg/wiki/Croissant,
+Sora by 幻象黑兔 https://arknights.wiki.gg/wiki/Sora. <w<
+
+-[M]
+Bison by 竜崎いち https://arknights.wiki.gg/wiki/Bison,
+Jaye by 阿鬼 https://arknights.wiki.gg/wiki/Jaye,
+Shaw by 阿鬼 https://arknights.wiki.gg/wiki/Shaw,
+Shadow Guards by ??? https://arknights.fandom.com/wiki/Shadow_Guard,
+Aak by KuroBlood https://arknights.fandom.com/wiki/Aak,
+Hung by KuroBlood https://arknights.fandom.com/wiki/Hung,
+Phal by ??? https://arknights.fandom.com/wiki/Phal,
+Yith by ??? https://arknights.wiki.gg/wiki/Yith. >w>
+
+# Characters - leaders
+-[F]
+Swire by 下野宏铭 https://arknights.fandom.com/wiki/Swire. <w<
+
+-[M]
+Wei Yenwu by ??? https://arknights.wiki.gg/wiki/Wei_Yenwu,
+Rat King by ??? https://arknights.wiki.gg/wiki/Rat_King,
+Lee by KuroBlood https://arknights.fandom.com/wiki/Lee,
+Emperor by ??? https://arknights.wiki.gg/wiki/Emperor. >w>
+
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+-->Laterano, Leithanien and Minos:
+Images: laterano_crest.png and laterano_flag.png. :3
+Crest and Flag from https://arknights.wiki.gg/wiki/Laterano, https://arknights.wiki.gg/wiki/Leithanien, and https://arknights.wiki.gg/wiki/Minos. >w<
+
+# Portraits - operators and/or npcs
+-[F]
+Ambriel by m9nokuro https://arknights.wiki.gg/wiki/Ambriel,
+Archetto by alchemaniac https://arknights.wiki.gg/wiki/Archetto,
+Fiammetta by 幻象黑兔 https://arknights.wiki.gg/wiki/Fiammetta,
+Lemuen by IRIS_口艺 https://arknights.wiki.gg/wiki/Lemuen,
+Mostima by 幻象黑兔 https://arknights.wiki.gg/wiki/Mostima,
+Plume by deel https://arknights.wiki.gg/wiki/Plume,
+Spuria by おぐち https://arknights.wiki.gg/wiki/Spuria,
+Virtuosa by 竜崎いち https://arknights.wiki.gg/wiki/Virtuosa,
+Cecelia la Porta by ??? https://arknights.wiki.gg/wiki/Cecelia,
+Fortuna by https://arknights.wiki.gg/wiki/Fortuna,
+Velliv by https://arknights.wiki.gg/wiki/Velliv,
+# Leithanien,
+Earthspirit by HUG https://arknights.wiki.gg/wiki/Earthspirit,
+Eyjafjalla by Anmi https://arknights.wiki.gg/wiki/Eyjafjalla,
+Eyjafjalla the Hvít Aska by Anmi https://arknights.wiki.gg/wiki/Eyjafjalla_the_Hv%C3%ADt_Aska,
+Viviana by Chuzenji https://arknights.wiki.gg/wiki/Viviana,
+Cora Lowenstein by ??? https://arknights.wiki.gg/wiki/Cora_L%C3%B6wenstein,
+Gertrude Strollo by ??? https://arknights.wiki.gg/wiki/Gertrude_Strollo,
+Tatjana Bergler by ??? https://arknights.wiki.gg/wiki/Tatjana,
+Yulia Schuler by ??? https://arknights.wiki.gg/wiki/Yulia_Sch%C3%BCler,
+# Minos,
+Conviction by TOMATO https://arknights.wiki.gg/wiki/Conviction,
+Erato by small_ryuzaki https://arknights.wiki.gg/wiki/Erato,
+Pallas by aZLing4 https://arknights.wiki.gg/wiki/Pallas,
+Sideroca by Sho https://arknights.wiki.gg/wiki/Sideroca,
+Vulcan by neco https://arknights.wiki.gg/wiki/Vulcan,
+Aspasia ho Herias by ??? https://arknights.wiki.gg/wiki/Aspasia. <w<
+
+-[M]
+Arene by umo_yszx https://arknights.wiki.gg/wiki/Arene,
+Confess-47 by 抽象Rotate https://arknights.wiki.gg/wiki/Confess-47,
+Enforcer by Chuzenji https://arknights.wiki.gg/wiki/Enforcer,
+Executor by Skade https://arknights.wiki.gg/wiki/Executor,
+Executor the Ex Foedere by Skade https://arknights.wiki.gg/wiki/Executor_the_Ex_Foedere,
+Insider by umo_yszx https://arknights.wiki.gg/wiki/Insider,
+Sankta Miksaparato by 九日九号 https://arknights.wiki.gg/wiki/Sankta_Miksaparato,
+Oren Argiolas by ??? https://arknights.wiki.gg/wiki/Oren_Argiolas,
+Stefano Torregrossa by ??? https://arknights.wiki.gg/wiki/Stefano_Torregrossa,
+Clement Dubois by ??? https://arknights.fandom.com/wiki/Clement_Dubois,
+# Leithanien,
+Bassline by 九日九号 https://arknights.wiki.gg/wiki/Bassline,
+Czerny by 九日九号 https://arknights.wiki.gg/wiki/Czerny,
+Diamante by およ https://arknights.wiki.gg/wiki/Diamante,
+Ebenholz by 竜崎いち https://arknights.wiki.gg/wiki/Ebenholz,
+Lessing by カワグチ https://arknights.wiki.gg/wiki/Lessing,
+Biegler by ??? https://arknights.wiki.gg/wiki/Biegler,
+Brandt Reiner by ??? https://arknights.wiki.gg/wiki/Brandt_Reiner,
+Gerhard Hoffmann by ??? https://arknights.wiki.gg/wiki/Gerhard_Hoffmann,
+Kreide by ??? https://arknights.wiki.gg/wiki/Kreide,
+Lachmann ??? https://arknights.wiki.gg/wiki/Lachmann,
+Severin Hawthorn ??? https://arknights.wiki.gg/wiki/Severin_Hawthorn,
+# Minos,
+Conviction by TOMATO https://arknights.wiki.gg/wiki/Conviction,
+Dikaiopolis by 竜崎いち https://arknights.fandom.com/wiki/Dikaiopolis,
+Eurill Pides by 竜崎いち https://arknights.fandom.com/wiki/Eurill_Pides. >w>
+
+# Characters - leaders
+-[F]
+# Leithanien,
+Lieselotte by ??? https://arknights.wiki.gg/wiki/Twin_Empresses,
+Hildegard by ??? https://arknights.wiki.gg/wiki/Twin_Empresses,
+
+-[M]
+Yvangelista XI by ??? https://arknights.wiki.gg/wiki/Yvangelista_XI,
+Herkunftshorn by ??? https://arknights.wiki.gg/wiki/Witch_King. <w<
+
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+-->Yan Sui Refugees:
+Note: In Sui I skipped Jie as there was no real pfp of em. TwT And no leader fpfs either. >:/
+Note: No pfp for leader btw. >w<
+Images: yansui_crest.png and yansui_flag.png. :3
+Crest, Flag from https://arknights.wiki.gg/wiki/Yan, and https://arknights.wiki.gg/wiki/Sui. >w<
+
+# Portraits - operators and/or npcs
+-[F]
+Grain Buds by YUJI https://arknights.wiki.gg/wiki/Grain_Buds,
+Jieyun by 伍秋秋秋秋 https://arknights.wiki.gg/wiki/Jieyun,
+Leizi by 竜崎いち https://arknights.wiki.gg/wiki/Leizi,
+Mulberry by Jacknife https://arknights.wiki.gg/wiki/Mulberry,
+Nine-Colored Deer by IRIS_口艺 https://arknights.wiki.gg/wiki/Nine-Colored_Deer,
+Purestream by 唯@W https://arknights.wiki.gg/wiki/Purestream,
+Qiubai by 温泉瓜 https://arknights.wiki.gg/wiki/Qiubai,
+Wind Chimes by 〇亻 https://arknights.wiki.gg/wiki/Wind_Chimes,
+Xingzhu by 3MO https://arknights.wiki.gg/wiki/Xingzhu,
+Chen Che by ??? https://arknights.wiki.gg/wiki/Chen_Che,
+Dawn by ??? https://arknights.wiki.gg/wiki/Dawn,
+Du Yaoye by ??? https://arknights.wiki.gg/wiki/Du_Yaoye,
+Ning Ciqiu by ??? https://arknights.wiki.gg/wiki/Ning_Ciqiu,
+Old Tianshi by ??? https://arknights.wiki.gg/wiki/Old_Tianshi,
+Rong Wanqing by ??? https://arknights.wiki.gg/wiki/Rong_Wanqing,
+Shennong by ??? https://arknights.wiki.gg/wiki/Shennong,
+# Sui,
+Ling by  下野宏铭 https://arknights.wiki.gg/wiki/Ling,
+Shu by  IRIS_口艺 https://arknights.wiki.gg/wiki/Shu,
+Nian by 幻象黑兔 https://arknights.wiki.gg/wiki/Nian,
+Dusk by 幻象黑兔 https://arknights.wiki.gg/wiki/Dusk. >w>
+
+-[M]
+Luo Xiaohei by 九日九号 https://arknights.wiki.gg/wiki/Luo_Xiaohei,
+Mr. Nothing by  Skade https://arknights.wiki.gg/wiki/Mr._Nothing,
+Wanqing by  三目YYB https://arknights.wiki.gg/wiki/Wanqing,
+Windscoot by azuタロウ https://arknights.wiki.gg/wiki/Windscoot,
+Zuo Le by  九日九号 https://arknights.wiki.gg/wiki/Zuo_Le,
+Fang Xiaoshi by ??? https://arknights.wiki.gg/wiki/Fang_Xiaoshi,
+Grand Commandant by ??? https://arknights.wiki.gg/wiki/Grand_Commandant,
+The Grand Tutor by ??? https://arknights.wiki.gg/wiki/Grand_Tutor,
+Gu Quan by ??? https://arknights.wiki.gg/wiki/Gu_Quan,
+Huai Tianpei by ??? https://arknights.wiki.gg/wiki/Huai_Tianpei,
+Lao Jiang by ??? https://arknights.wiki.gg/wiki/Lao_Jiang,
+Liang Xun by ??? https://arknights.wiki.gg/wiki/Liang_Xun,
+Meng Tieyi by ??? https://arknights.wiki.gg/wiki/Meng_Tieyi,
+Mo Bufu by ??? https://arknights.wiki.gg/wiki/Mo_Bufu,
+Ning Shu by ??? https://arknights.wiki.gg/wiki/Ning_Shu,
+Old Lumberjack by ??? https://arknights.wiki.gg/wiki/Old_Lumberjack,
+Shang Zhong by ??? https://arknights.wiki.gg/wiki/Shang_Zhong,
+Shen Lou by ??? https://arknights.wiki.gg/wiki/Shen_Lou,
+Taihe by ??? https://arknights.wiki.gg/wiki/Taihe,
+Wan Qincheng by ??? https://arknights.wiki.gg/wiki/Wan_Qincheng,
+Ya by ??? https://arknights.wiki.gg/wiki/Ya,
+Yu Cheng by ??? https://arknights.wiki.gg/wiki/Yu_Cheng,
+Yun Qingping by ??? https://arknights.wiki.gg/wiki/Yun_Qingping,
+Zheng Qingyue by ??? https://arknights.wiki.gg/wiki/Zheng_Qingyue,
+Zhou Shun by ??? https://arknights.wiki.gg/wiki/Zhou_Shun,
+Zuo Xuanliao by ??? https://arknights.wiki.gg/wiki/Zuo_Xuanliao,
+# Sui,
+Chongyue by  KuroBlood https://arknights.wiki.gg/wiki/Chongyue,
+Wang by ??? https://arknights.wiki.gg/wiki/Wang,
+Ji by ??? https://arknights.wiki.gg/wiki/Ji,
+Yu by ??? https://arknights.wiki.gg/wiki/Yu. <w<
+
+# Characters - leaders
+-[F]
+
+-[M]
+
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+-->Siracusa and Chiave's Gang:
+Note: Did not include Caesar, Vargo, Zaaro, as they don't have an actual body and would make the faction feel mar disconnected. X3
+Images: siracusa_crest.png and siracusa_flag.png. :3
+Crest and Flag from https://arknights.wiki.gg/wiki/Siracusa. >w<
+
+# Portraits - operators and/or npcs
+-[F]
+Angelina by LM7 https://arknights.wiki.gg/wiki/Angelina,
+Aroma by  ヌードル https://arknights.wiki.gg/wiki/Aroma,
+Lappland by  幻象黑兔 https://arknights.wiki.gg/wiki/Lappland,
+Lappland the Decadenza by  幻象黑兔 https://arknights.wiki.gg/wiki/Lappland_the_Decadenza,
+Lunacub by  IRIS_口艺 https://arknights.wiki.gg/wiki/Lunacub,
+Penance by IRIS_口艺 https://arknights.wiki.gg/wiki/Penance,
+Provence by  渣念 https://arknights.wiki.gg/wiki/Provence,
+Shamare by  下野宏铭 https://arknights.wiki.gg/wiki/Shamare,
+Vermeil by KENTllaall https://arknights.wiki.gg/wiki/Vermeil,
+Vulpisfoglia by  轟将 https://arknights.wiki.gg/wiki/Vulpisfoglia,
+Eirene Lavazza by ??? https://arknights.wiki.gg/wiki/Eirene_Lavazza. >w>
+
+-[M]
+Figurino by 伍秋秋秋秋 https://arknights.wiki.gg/wiki/Figurino,
+Vigil by hou https://arknights.wiki.gg/wiki/Vigil,
+Alberto Saluzzo by ??? https://arknights.wiki.gg/wiki/Alberto_Saluzzo,
+Ben by ??? https://arknights.wiki.gg/wiki/Ben,
+Bernardo Bellone by ??? https://arknights.wiki.gg/wiki/Bernardo_Bellone,
+Capone by ??? https://arknights.wiki.gg/wiki/Capone,
+Danbrown Leopardi by ??? https://arknights.wiki.gg/wiki/Danbrown_Leopardi,
+Demetri Certaldo by ??? https://arknights.wiki.gg/wiki/Demetri_Certaldo,
+Fabrizio Venezia by ??? https://arknights.wiki.gg/wiki/Fabrizio_Venezia,
+Gambino Ricci by ??? https://arknights.wiki.gg/wiki/Gambino,
+Rubio Pacino by ??? https://arknights.wiki.gg/wiki/Rubio,
+Sommer by ??? https://arknights.wiki.gg/wiki/Sommer,
+Umberto de Montano by ??? https://arknights.wiki.gg/wiki/Umberto_de_Montano,
+#Chiave's Gang,
+Aosta by infukun https://arknights.wiki.gg/wiki/Aosta,
+Broca by  Infukun https://arknights.wiki.gg/wiki/Broca,
+Chiave by Infukun https://arknights.wiki.gg/wiki/Chiave. <w<
+
+# Characters - leaders
+-[F]
+Signora Sicilia by ??? https://arknights.wiki.gg/wiki/Signora_Sicilia. >w>
+
+-[M]
+
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+-->Higashi:
+Note: No pfp for the leader btw. TwT
+Images: higashi_crest.png and higashi_flag.png. :3
+Crest and Flag from https://arknights.wiki.gg/wiki/Higashi. >w<
+
+# Portraits - operators and/or npcs
+-[F]
+Akafuyu by Kumatangent https://arknights.wiki.gg/wiki/Akafuyu,
+Kazemaru by small_ryuzaki https://arknights.wiki.gg/wiki/Kazemaru,
+Kirara by 我妻洛醬 https://arknights.wiki.gg/wiki/Kirara,
+Matoimaru by 竜崎いち https://arknights.wiki.gg/wiki/Matoimaru,
+Saga by  多元菌 https://arknights.wiki.gg/wiki/Saga,
+Shirayuki by  阿鬼 https://arknights.wiki.gg/wiki/Shirayuki,
+Tsukinogi by  上埜 https://arknights.wiki.gg/wiki/Tsukinogi,
+Utage by 釜飯轟々丸 https://arknights.wiki.gg/wiki/Utage,
+Takii Mirai by ??? https://arknights.wiki.gg/wiki/Takii_Mirai.
+
+-[M]
+Mizuki by  Namie https://arknights.wiki.gg/wiki/Mizuki,
+Kashiwau Akira by ??? https://arknights.wiki.gg/wiki/Kashiwau_Akira,
+Kashiwau Yoshitaka by ??? https://arknights.wiki.gg/wiki/Kashiwau_Yoshitaka,
+Takii Ataru by ??? https://arknights.wiki.gg/wiki/Takii_Ataru.
+
+# Characters - leaders
+-[F]
+
+-[M]
+
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+-->Iberia:
+Note: No pfp for the leader and leader is vaccant btw. TwT
+Images: iberia_crest.png and iberia_flag.png. :3
+Crest and Flag from https://arknights.wiki.gg/wiki/Iberia. >w<
+
+# Portraits - operators and/or npcs
+-[F]
+Blue Poison by LLC https://arknights.wiki.gg/wiki/Blue_Poison,
+Highmore by  Horin https://arknights.wiki.gg/wiki/Highmore,
+Indigo by  织布机loom https://arknights.wiki.gg/wiki/Indigo,
+Irene by  aZLing4 https://arknights.wiki.gg/wiki/Irene,
+Rose Salt by 二开 https://arknights.wiki.gg/wiki/Rose_Salt,
+Whisperain by Chuzenji https://arknights.wiki.gg/wiki/Whisperain,
+Anita by ??? https://arknights.wiki.gg/wiki/Anita,
+Juana by ??? https://arknights.wiki.gg/wiki/Juana.
+
+-[M]
+Lumen by  一千 https://arknights.wiki.gg/wiki/Lumen,
+Thorns by 幻象黑兔 https://arknights.wiki.gg/wiki/Thorns,
+Thorns the Lodestar by 嘎嘎人 https://arknights.wiki.gg/wiki/Thorns_the_Lodestar,
+Alfonso by ??? https://arknights.wiki.gg/wiki/Alfonso,
+Anastasio by ??? https://arknights.wiki.gg/wiki/Anastasio,
+Carmen by ??? https://arknights.wiki.gg/wiki/Carmen,
+Dario by ??? https://arknights.wiki.gg/wiki/Dario,
+Garcia by ??? https://arknights.wiki.gg/wiki/Garcia,
+Silva by ??? https://arknights.wiki.gg/wiki/Silva,
+Thiago by ??? https://arknights.wiki.gg/wiki/Thiago.
+
+# Characters - leaders
+-[F]
+
+-[M]
+
+|
+|
+|
+|
+|
+|
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+---<Coding>---
+Author - Mod
+
+Konturga - Player Merge Disabler, Player Faction overhaul. >w>
+Histidine (original by Zaphide) - nexerelin. <w<
+
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+-Helpers-
+Purple Nebula,
+Wymorlon,
+Tecrys Monster Queen,
+ruddygreat,
+DeCell,
+Histidine,
+PureTilt Freelance Police Waifu,
+Lukas04,
+borgrel,
+Amazigh,
+(tried 2 document everyone dat helped but sum may have be4 missed, sawry. >w< )

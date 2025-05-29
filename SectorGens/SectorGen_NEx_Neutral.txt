@@ -1,0 +1,678 @@
+package data.scripts.world;
+
+import com.fs.starfarer.api.Global;
+import com.fs.starfarer.api.campaign.FactionAPI;
+import com.fs.starfarer.api.campaign.LocationAPI;
+import com.fs.starfarer.api.campaign.RepLevel;
+import com.fs.starfarer.api.campaign.SectorAPI;
+import com.fs.starfarer.api.campaign.SectorEntityToken;
+import com.fs.starfarer.api.campaign.SectorGeneratorPlugin;
+import com.fs.starfarer.api.campaign.StarSystemAPI;
+import com.fs.starfarer.api.impl.campaign.CoreCampaignPluginImpl;
+import com.fs.starfarer.api.impl.campaign.CoreScript;
+import com.fs.starfarer.api.impl.campaign.events.CoreEventProbabilityManager;
+import com.fs.starfarer.api.impl.campaign.fleets.DisposableLuddicPathFleetManager;
+import com.fs.starfarer.api.impl.campaign.fleets.DisposablePirateFleetManager;
+import com.fs.starfarer.api.impl.campaign.fleets.EconomyFleetRouteManager;
+import com.fs.starfarer.api.impl.campaign.fleets.MercFleetManagerV2;
+import com.fs.starfarer.api.impl.campaign.ids.Factions;
+import com.fs.starfarer.api.impl.campaign.ids.Terrain;
+import com.fs.starfarer.api.impl.campaign.procgen.NebulaEditor;
+import com.fs.starfarer.api.impl.campaign.terrain.HyperspaceTerrainPlugin;
+import com.fs.starfarer.api.util.Misc;
+
+import data.hullmods.HeavyArmor;
+import data.scripts.world.corvus.Corvus;
+import data.scripts.world.systems.AlGebbar;
+import data.scripts.world.systems.Arcadia;
+import data.scripts.world.systems.Askonia;
+import data.scripts.world.systems.Aztlan;
+import data.scripts.world.systems.Canaan;
+import data.scripts.world.systems.Duzahk;
+import data.scripts.world.systems.Eos;
+import data.scripts.world.systems.Galatia;
+import data.scripts.world.systems.Hybrasil;
+import data.scripts.world.systems.Isirah;
+import data.scripts.world.systems.KumariKandam;
+import data.scripts.world.systems.Magec;
+import data.scripts.world.systems.Mayasura;
+import data.scripts.world.systems.Naraka;
+import data.scripts.world.systems.Penelope;
+import data.scripts.world.systems.Samarra;
+import data.scripts.world.systems.Thule;
+import data.scripts.world.systems.TiaTaxet;
+import data.scripts.world.systems.Tyle;
+import data.scripts.world.systems.Valhalla;
+import data.scripts.world.systems.Westernesse;
+import data.scripts.world.systems.Yma;
+import data.scripts.world.systems.Zagan;
+
+public class SectorGen implements SectorGeneratorPlugin {
+
+	public void generate(SectorAPI sector) {
+		//ClassLoader cl = Global.getSettings().getScriptClassLoader();
+		
+		StarSystemAPI system = sector.createStarSystem("Corvus");
+		//system.getLocation().set(16000 - 8000, 9000 - 10000);
+		system.setBackgroundTextureFilename("graphics/backgrounds/background4.jpg");
+		
+		//sector.setCurrentLocation(system);
+		sector.setRespawnLocation(system);
+		sector.getRespawnCoordinates().set(-2500, -3500);
+		
+		initFactionRelationships(sector);
+		
+		new Galatia().generate(sector);
+		new Askonia().generate(sector);
+		new Eos().generate(sector);
+		new Valhalla().generate(sector);
+		new Arcadia().generate(sector);
+		new Magec().generate(sector);
+		new Corvus().generate(sector);
+		new Aztlan().generate(sector);
+		new Samarra().generate(sector);
+		new Penelope().generate(sector);
+		new Yma().generate(sector);
+		new Hybrasil().generate(sector);
+		new Duzahk().generate(sector);
+		new TiaTaxet().generate(sector);
+		new Canaan().generate(sector);
+		new AlGebbar().generate(sector);
+		new Isirah().generate(sector);
+		new KumariKandam().generate(sector);
+		new Naraka().generate(sector);
+		new Thule().generate(sector);
+		new Mayasura().generate(sector);
+		new Zagan().generate(sector);
+		new Westernesse().generate(sector);
+		new Tyle().generate(sector);
+		
+		LocationAPI hyper = Global.getSector().getHyperspace();
+		SectorEntityToken atlanticLabel = hyper.addCustomEntity("atlantic_label_id", null, "atlantic_label", null);
+		SectorEntityToken perseanLabel = hyper.addCustomEntity("persean_label_id", null, "persean_label", null);
+		SectorEntityToken luddicLabel = hyper.addCustomEntity("luddic_label_id", null, "luddic_label", null);
+		SectorEntityToken zinLabel = hyper.addCustomEntity("zin_label_id", null, "zin_label", null);
+		SectorEntityToken abyssLabel = hyper.addCustomEntity("opabyss_label_id", null, "opabyss_label", null);
+		SectorEntityToken telmunLabel = hyper.addCustomEntity("telmun_label_id", null, "telmun_label", null);
+		SectorEntityToken cathedralLabel = hyper.addCustomEntity("cathedral_label_id", null, "cathedral_label", null);
+		SectorEntityToken coreLabel = hyper.addCustomEntity("core_label_id", null, "core_label", null);
+		
+		atlanticLabel.setFixedLocation(500, -2000);
+		perseanLabel.setFixedLocation(-10000, 1000);
+		luddicLabel.setFixedLocation(-14000, -9500);
+		zinLabel.setFixedLocation(-22000, -17000); 
+		telmunLabel.setFixedLocation(-16000, 0);
+		cathedralLabel.setFixedLocation(-12700, -12000);
+		coreLabel.setFixedLocation(0, -6000);
+		
+		abyssLabel.setFixedLocation(-65000, -47000);
+		
+		/*SectorEntityToken deep_hyperspace_test = Global.getSector().getHyperspace().addTerrain(Terrain.NEBULA, new BaseTiledTerrain.TileParams(
+				"   xx     " +
+				"   xxx    " +
+				"  xxx x   " +
+				"  xx   x  " +
+				" xxxx xxx " +
+				"  xxxxxxx " +
+				" xxxxxxxxx" +
+				" xxxxxxxxx" +
+				"  xxxxxxx " +
+				" xxxxxxx  " +
+				" x xxxxx  " +
+				"  xxxxxx  " +
+				" xxxx xxx " +
+				"xxxx  xxx " +
+				" xxxx     " +
+				"xxxxxxxxx " +
+				"  xxxxxxxx" +
+				" xxxxxxxxx" +
+				"  xxxxxxx " +
+				"   xxx    ",
+				10, 20, // size of the nebula grid, should match above string
+				"terrain", "deep_hyperspace", 4, 4));
+		
+		deep_hyperspace_test.getLocation().set(5000,5000);*/
+		
+		
+		SectorEntityToken deep_hyperspace = Misc.addNebulaFromPNG("data/campaign/terrain/hyperspace_map.png",
+		//SectorEntityToken deep_hyperspace = Misc.addNebulaFromPNG("data/campaign/terrain/hyperspace_map_filled.png",
+				  0, 0, // center of nebula
+				  Global.getSector().getHyperspace(), // location to add to
+				  "terrain", "deep_hyperspace", // "nebula_blue", // texture to use, uses xxx_map for map
+				  4, 4, Terrain.HYPERSPACE, null); // number of cells in texture
+		
+		
+		
+		// ensure area around stars is clear
+		HyperspaceTerrainPlugin plugin = (HyperspaceTerrainPlugin) Misc.getHyperspaceTerrain().getPlugin();
+		NebulaEditor editor = new NebulaEditor(plugin);
+		float minRadius = plugin.getTileSize() * 2f;
+		for (StarSystemAPI curr : sector.getStarSystems()) {
+			float radius = curr.getMaxRadiusInHyperspace() * 0.5f;
+			editor.clearArc(curr.getLocation().x, curr.getLocation().y, 0, radius + minRadius * 0.5f, 0, 360f);
+			editor.clearArc(curr.getLocation().x, curr.getLocation().y, 0, radius + minRadius, 0, 360f, 0.25f);
+		}
+		
+		
+		
+//		PirateSpawnPoint pirateSpawn = new PirateSpawnPoint(sector, sector.getHyperspace(), 1, 15, system.getHyperspaceAnchor());
+//		system.addSpawnPoint(pirateSpawn);
+//		for (int i = 0; i < 2; i++) {
+//			pirateSpawn.spawnFleet();
+//		}
+		
+		// need to do this after hyperspace terrain exists
+		//SectorProcGen.generate();
+		// this is done through settings.json, "plugins"->"newGameSectorProcGen"
+		
+		sector.registerPlugin(new CoreCampaignPluginImpl());
+		sector.addScript(new CoreScript());
+		sector.addScript(new CoreEventProbabilityManager());
+		
+		sector.addScript(new EconomyFleetRouteManager());
+		//sector.addScript(new MercFleetManager());
+		sector.addScript(new MercFleetManagerV2());
+		
+		
+		sector.addScript(new DisposablePirateFleetManager());
+		sector.addScript(new DisposableLuddicPathFleetManager());
+		
+//		sector.addScript(new LuddicPathFleetManager());
+//		sector.addScript(new PirateFleetManager());
+//		sector.addScript(new BountyPirateFleetManager());
+		
+	}
+	
+	public static void initFactionRelationships(SectorAPI sector) {
+		
+		
+		// forget why this is necessary - workaround for some JANINO issue, I think
+		Class c = HeavyArmor.class;
+		
+		FactionAPI derelict = sector.getFaction(Factions.DERELICT);
+		FactionAPI dweller = sector.getFaction(Factions.DWELLER);
+		FactionAPI hegemony = sector.getFaction(Factions.HEGEMONY);
+		FactionAPI independent = sector.getFaction(Factions.INDEPENDENT);
+		FactionAPI kol = sector.getFaction(Factions.KOL);
+		FactionAPI lionsguard = sector.getFaction(Factions.LIONS_GUARD);
+		FactionAPI church = sector.getFaction(Factions.LUDDIC_CHURCH);
+		FactionAPI path = sector.getFaction(Factions.LUDDIC_PATH);
+		FactionAPI merc = sector.getFaction(Factions.MERCENARY);
+		FactionAPI neutral = sector.getFaction(Factions.NEUTRAL);
+		FactionAPI omega = sector.getFaction(Factions.OMEGA);
+		FactionAPI persean = sector.getFaction(Factions.PERSEAN);
+		FactionAPI pirates = sector.getFaction(Factions.PIRATES);
+		FactionAPI player = sector.getFaction(Factions.PLAYER);
+		FactionAPI refugees = sector.getFaction(Factions.POOR);
+		FactionAPI remnant = sector.getFaction(Factions.REMNANTS);
+		FactionAPI scav = sector.getFaction(Factions.SCAVENGERS);
+		FactionAPI diktat = sector.getFaction(Factions.DIKTAT);
+		FactionAPI sleeper = sector.getFaction(Factions.SLEEPER);
+		FactionAPI threat = sector.getFaction(Factions.THREAT);
+		FactionAPI tritachyon = sector.getFaction(Factions.TRITACHYON);
+
+		// ---Faction Relations Below---
+		
+		// Derelict,
+		derelict.setRelationship(dweller.getId(), 0);
+		derelict.setRelationship(hegemony.getId(), 0);
+		derelict.setRelationship(independent.getId(), 0);
+		derelict.setRelationship(kol.getId(), 0);
+		derelict.setRelationship(lionsguard.getId(), 0);
+		derelict.setRelationship(church.getId(), 0);
+		derelict.setRelationship(path.getId(), 0);
+		derelict.setRelationship(merc.getId(), 0);
+		derelict.setRelationship(neutral.getId(), 0);
+		derelict.setRelationship(omega.getId(), 0);
+		derelict.setRelationship(persean.getId(), 0);
+		derelict.setRelationship(pirates.getId(), 0);
+		derelict.setRelationship(player.getId(), 0);
+		derelict.setRelationship(refugees.getId(), 0);
+		derelict.setRelationship(remnant.getId(), 0);
+		derelict.setRelationship(scav.getId(), 0);
+		derelict.setRelationship(diktat.getId(), 0);
+		derelict.setRelationship(sleeper.getId(), 0);
+		derelict.setRelationship(threat.getId(), 0);
+		derelict.setRelationship(tritachyon.getId(), 0);
+		
+		// Dweller,
+		dweller.setRelationship(derelict.getId(), 0);
+		dweller.setRelationship(hegemony.getId(), 0);
+		dweller.setRelationship(independent.getId(), 0);
+		dweller.setRelationship(kol.getId(), 0);
+		dweller.setRelationship(lionsguard.getId(), 0);
+		dweller.setRelationship(church.getId(), 0);
+		dweller.setRelationship(path.getId(), 0);
+		dweller.setRelationship(merc.getId(), 0);
+		dweller.setRelationship(neutral.getId(), 0);
+		dweller.setRelationship(omega.getId(), 0);
+		dweller.setRelationship(persean.getId(), 0);
+		dweller.setRelationship(pirates.getId(), 0);
+		dweller.setRelationship(player.getId(), 0);
+		dweller.setRelationship(refugees.getId(), 0);
+		dweller.setRelationship(remnant.getId(), 0);
+		dweller.setRelationship(scav.getId(), 0);
+		dweller.setRelationship(diktat.getId(), 0);
+		dweller.setRelationship(sleeper.getId(), 0);
+		dweller.setRelationship(threat.getId(), 0);
+		dweller.setRelationship(tritachyon.getId(), 0);
+		
+		// Hegemony,
+		hegemony.setRelationship(derelict.getId(), 0);
+		hegemony.setRelationship(dweller.getId(), 0);
+		hegemony.setRelationship(independent.getId(), 0);
+		hegemony.setRelationship(kol.getId(), 0);
+		hegemony.setRelationship(lionsguard.getId(), 0);
+		hegemony.setRelationship(church.getId(), 0);
+		hegemony.setRelationship(path.getId(), 0);
+		hegemony.setRelationship(merc.getId(), 0);
+		hegemony.setRelationship(neutral.getId(), 0);
+		hegemony.setRelationship(omega.getId(), 0);
+		hegemony.setRelationship(persean.getId(), 0);
+		hegemony.setRelationship(pirates.getId(), 0);
+		hegemony.setRelationship(player.getId(), 0);
+		hegemony.setRelationship(refugees.getId(), 0);
+		hegemony.setRelationship(remnant.getId(), 0);
+		hegemony.setRelationship(scav.getId(), 0);
+		hegemony.setRelationship(diktat.getId(), 0);
+		hegemony.setRelationship(sleeper.getId(), 0);
+		hegemony.setRelationship(threat.getId(), 0);
+		hegemony.setRelationship(tritachyon.getId(), 0);
+		
+		// Independent,
+		independent.setRelationship(derelict.getId(), 0);
+		independent.setRelationship(dweller.getId(), 0);
+		independent.setRelationship(hegemony.getId(), 0);
+		independent.setRelationship(kol.getId(), 0);
+		independent.setRelationship(lionsguard.getId(), 0);
+		independent.setRelationship(church.getId(), 0);
+		independent.setRelationship(path.getId(), 0);
+		independent.setRelationship(merc.getId(), 0);
+		independent.setRelationship(neutral.getId(), 0);
+		independent.setRelationship(omega.getId(), 0);
+		independent.setRelationship(persean.getId(), 0);
+		independent.setRelationship(pirates.getId(), 0);
+		independent.setRelationship(player.getId(), 0);
+		independent.setRelationship(refugees.getId(), 0);
+		independent.setRelationship(remnant.getId(), 0);
+		independent.setRelationship(scav.getId(), 0);
+		independent.setRelationship(diktat.getId(), 0);
+		independent.setRelationship(sleeper.getId(), 0);
+		independent.setRelationship(threat.getId(), 0);
+		independent.setRelationship(tritachyon.getId(), 0);
+		
+		// Kol - Knights Of Ludd,
+		kol.setRelationship(derelict.getId(), 0);
+		kol.setRelationship(dweller.getId(), 0);
+		kol.setRelationship(hegemony.getId(), 0);
+		kol.setRelationship(independent.getId(), 0);
+		kol.setRelationship(lionsguard.getId(), 0);
+		kol.setRelationship(church.getId(), 0);
+		kol.setRelationship(path.getId(), 0);
+		kol.setRelationship(merc.getId(), 0);
+		kol.setRelationship(neutral.getId(), 0);
+		kol.setRelationship(omega.getId(), 0);
+		kol.setRelationship(persean.getId(), 0);
+		kol.setRelationship(pirates.getId(), 0);
+		kol.setRelationship(player.getId(), 0);
+		kol.setRelationship(refugees.getId(), 0);
+		kol.setRelationship(remnant.getId(), 0);
+		kol.setRelationship(scav.getId(), 0);
+		kol.setRelationship(diktat.getId(), 0);
+		kol.setRelationship(sleeper.getId(), 0);
+		kol.setRelationship(threat.getId(), 0);
+		kol.setRelationship(tritachyon.getId(), 0);
+		
+		// lionsguard,
+		lionsguard.setRelationship(derelict.getId(), 0);
+		lionsguard.setRelationship(dweller.getId(), 0);
+		lionsguard.setRelationship(hegemony.getId(), 0);
+		lionsguard.setRelationship(independent.getId(), 0);
+		lionsguard.setRelationship(kol.getId(), 0);
+		lionsguard.setRelationship(church.getId(), 0);
+		lionsguard.setRelationship(path.getId(), 0);
+		lionsguard.setRelationship(merc.getId(), 0);
+		lionsguard.setRelationship(neutral.getId(), 0);
+		lionsguard.setRelationship(omega.getId(), 0);
+		lionsguard.setRelationship(persean.getId(), 0);
+		lionsguard.setRelationship(pirates.getId(), 0);
+		lionsguard.setRelationship(player.getId(), 0);
+		lionsguard.setRelationship(refugees.getId(), 0);
+		lionsguard.setRelationship(remnant.getId(), 0);
+		lionsguard.setRelationship(scav.getId(), 0);
+		lionsguard.setRelationship(diktat.getId(), 0);
+		lionsguard.setRelationship(sleeper.getId(), 0);
+		lionsguard.setRelationship(threat.getId(), 0);
+		lionsguard.setRelationship(tritachyon.getId(), 0);
+		
+		// Church,
+		church.setRelationship(derelict.getId(), 0);
+		church.setRelationship(dweller.getId(), 0);
+		church.setRelationship(hegemony.getId(), 0);
+		church.setRelationship(independent.getId(), 0);
+		church.setRelationship(kol.getId(), 0);
+		church.setRelationship(lionsguard.getId(), 0);
+		church.setRelationship(path.getId(), 0);
+		church.setRelationship(merc.getId(), 0);
+		church.setRelationship(neutral.getId(), 0);
+		church.setRelationship(omega.getId(), 0);
+		church.setRelationship(persean.getId(), 0);
+		church.setRelationship(pirates.getId(), 0);
+		church.setRelationship(player.getId(), 0);
+		church.setRelationship(refugees.getId(), 0);
+		church.setRelationship(remnant.getId(), 0);
+		church.setRelationship(scav.getId(), 0);
+		church.setRelationship(diktat.getId(), 0);
+		church.setRelationship(sleeper.getId(), 0);
+		church.setRelationship(threat.getId(), 0);
+		church.setRelationship(tritachyon.getId(), 0);
+		
+		// Path,
+		path.setRelationship(derelict.getId(), 0);
+		path.setRelationship(dweller.getId(), 0);
+		path.setRelationship(hegemony.getId(), 0);
+		path.setRelationship(independent.getId(), 0);
+		path.setRelationship(kol.getId(), 0);
+		path.setRelationship(lionsguard.getId(), 0);
+		path.setRelationship(church.getId(), 0);
+		path.setRelationship(merc.getId(), 0);
+		path.setRelationship(neutral.getId(), 0);
+		path.setRelationship(omega.getId(), 0);
+		path.setRelationship(persean.getId(), 0);
+		path.setRelationship(pirates.getId(), 0);
+		path.setRelationship(player.getId(), 0);
+		path.setRelationship(refugees.getId(), 0);
+		path.setRelationship(remnant.getId(), 0);
+		path.setRelationship(scav.getId(), 0);
+		path.setRelationship(diktat.getId(), 0);
+		path.setRelationship(sleeper.getId(), 0);
+		path.setRelationship(threat.getId(), 0);
+		path.setRelationship(tritachyon.getId(), 0);
+		
+		// Merc,
+		merc.setRelationship(derelict.getId(), 0);
+		merc.setRelationship(dweller.getId(), 0);
+		merc.setRelationship(hegemony.getId(), 0);
+		merc.setRelationship(independent.getId(), 0);
+		merc.setRelationship(kol.getId(), 0);
+		merc.setRelationship(lionsguard.getId(), 0);
+		merc.setRelationship(church.getId(), 0);
+		merc.setRelationship(path.getId(), 0);
+		merc.setRelationship(neutral.getId(), 0);
+		merc.setRelationship(omega.getId(), 0);
+		merc.setRelationship(persean.getId(), 0);
+		merc.setRelationship(pirates.getId(), 0);
+		merc.setRelationship(player.getId(), 0);
+		merc.setRelationship(refugees.getId(), 0);
+		merc.setRelationship(remnant.getId(), 0);
+		merc.setRelationship(scav.getId(), 0);
+		merc.setRelationship(diktat.getId(), 0);
+		merc.setRelationship(sleeper.getId(), 0);
+		merc.setRelationship(threat.getId(), 0);
+		merc.setRelationship(tritachyon.getId(), 0);
+		
+		// Neutral,
+		neutral.setRelationship(derelict.getId(), 0);
+		neutral.setRelationship(dweller.getId(), 0);
+		neutral.setRelationship(hegemony.getId(), 0);
+		neutral.setRelationship(independent.getId(), 0);
+		neutral.setRelationship(kol.getId(), 0);
+		neutral.setRelationship(lionsguard.getId(), 0);
+		neutral.setRelationship(church.getId(), 0);
+		neutral.setRelationship(path.getId(), 0);
+		neutral.setRelationship(merc.getId(), 0);
+		neutral.setRelationship(omega.getId(), 0);
+		neutral.setRelationship(persean.getId(), 0);
+		neutral.setRelationship(pirates.getId(), 0);
+		neutral.setRelationship(player.getId(), 0);
+		neutral.setRelationship(refugees.getId(), 0);
+		neutral.setRelationship(remnant.getId(), 0);
+		neutral.setRelationship(scav.getId(), 0);
+		neutral.setRelationship(diktat.getId(), 0);
+		neutral.setRelationship(sleeper.getId(), 0);
+		neutral.setRelationship(threat.getId(), 0);
+		neutral.setRelationship(tritachyon.getId(), 0);
+		
+		// Omega,
+		omega.setRelationship(derelict.getId(), 0);
+		omega.setRelationship(dweller.getId(), 0);
+		omega.setRelationship(hegemony.getId(), 0);
+		omega.setRelationship(independent.getId(), 0);
+		omega.setRelationship(kol.getId(), 0);
+		omega.setRelationship(lionsguard.getId(), 0);
+		omega.setRelationship(church.getId(), 0);
+		omega.setRelationship(path.getId(), 0);
+		omega.setRelationship(merc.getId(), 0);
+		omega.setRelationship(neutral.getId(), 0);
+		omega.setRelationship(persean.getId(), 0);
+		omega.setRelationship(pirates.getId(), 0);
+		omega.setRelationship(player.getId(), 0);
+		omega.setRelationship(refugees.getId(), 0);
+		omega.setRelationship(remnant.getId(), 0);
+		omega.setRelationship(scav.getId(), 0);
+		omega.setRelationship(diktat.getId(), 0);
+		omega.setRelationship(sleeper.getId(), 0);
+		omega.setRelationship(threat.getId(), 0);
+		omega.setRelationship(tritachyon.getId(), 0);
+		
+		// Persean,
+		persean.setRelationship(derelict.getId(), 0);
+		persean.setRelationship(dweller.getId(), 0);
+		persean.setRelationship(hegemony.getId(), 0);
+		persean.setRelationship(independent.getId(), 0);
+		persean.setRelationship(kol.getId(), 0);
+		persean.setRelationship(lionsguard.getId(), 0);
+		persean.setRelationship(church.getId(), 0);
+		persean.setRelationship(path.getId(), 0);
+		persean.setRelationship(merc.getId(), 0);
+		persean.setRelationship(neutral.getId(), 0);
+		persean.setRelationship(omega.getId(), 0);
+		persean.setRelationship(pirates.getId(), 0);
+		persean.setRelationship(player.getId(), 0);
+		persean.setRelationship(refugees.getId(), 0);
+		persean.setRelationship(remnant.getId(), 0);
+		persean.setRelationship(scav.getId(), 0);
+		persean.setRelationship(diktat.getId(), 0);
+		persean.setRelationship(sleeper.getId(), 0);
+		persean.setRelationship(threat.getId(), 0);
+		persean.setRelationship(tritachyon.getId(), 0);
+		
+		// Pirates,
+		pirates.setRelationship(derelict.getId(), 0);
+		pirates.setRelationship(dweller.getId(), 0);
+		pirates.setRelationship(hegemony.getId(), 0);
+		pirates.setRelationship(independent.getId(), 0);
+		pirates.setRelationship(kol.getId(), 0);
+		pirates.setRelationship(lionsguard.getId(), 0);
+		pirates.setRelationship(church.getId(), 0);
+		pirates.setRelationship(path.getId(), 0);
+		pirates.setRelationship(merc.getId(), 0);
+		pirates.setRelationship(neutral.getId(), 0);
+		pirates.setRelationship(omega.getId(), 0);
+		pirates.setRelationship(persean.getId(), 0);
+		pirates.setRelationship(player.getId(), 0);
+		pirates.setRelationship(refugees.getId(), 0);
+		pirates.setRelationship(remnant.getId(), 0);
+		pirates.setRelationship(scav.getId(), 0);
+		pirates.setRelationship(diktat.getId(), 0);
+		pirates.setRelationship(sleeper.getId(), 0);
+		pirates.setRelationship(threat.getId(), 0);
+		pirates.setRelationship(tritachyon.getId(), 0);
+		
+		// Player,
+		player.setRelationship(derelict.getId(), 0);
+		player.setRelationship(dweller.getId(), 0);
+		player.setRelationship(hegemony.getId(), 0);
+		player.setRelationship(independent.getId(), 0);
+		player.setRelationship(kol.getId(), 0);
+		player.setRelationship(lionsguard.getId(), 0);
+		player.setRelationship(church.getId(), 0);
+		player.setRelationship(path.getId(), 0);
+		player.setRelationship(merc.getId(), 0);
+		player.setRelationship(neutral.getId(), 0);
+		player.setRelationship(omega.getId(), 0);
+		player.setRelationship(persean.getId(), 0);
+		player.setRelationship(pirates.getId(), 0);
+		player.setRelationship(refugees.getId(), 0);
+		player.setRelationship(remnant.getId(), 0);
+		player.setRelationship(scav.getId(), 0);
+		player.setRelationship(diktat.getId(), 0);
+		player.setRelationship(sleeper.getId(), 0);
+		player.setRelationship(threat.getId(), 0);
+		player.setRelationship(tritachyon.getId(), 0);
+		
+		// Refugees,
+		refugees.setRelationship(derelict.getId(), 0);
+		refugees.setRelationship(dweller.getId(), 0);
+		refugees.setRelationship(hegemony.getId(), 0);
+		refugees.setRelationship(independent.getId(), 0);
+		refugees.setRelationship(kol.getId(), 0);
+		refugees.setRelationship(lionsguard.getId(), 0);
+		refugees.setRelationship(church.getId(), 0);
+		refugees.setRelationship(path.getId(), 0);
+		refugees.setRelationship(merc.getId(), 0);
+		refugees.setRelationship(neutral.getId(), 0);
+		refugees.setRelationship(omega.getId(), 0);
+		refugees.setRelationship(persean.getId(), 0);
+		refugees.setRelationship(pirates.getId(), 0);
+		refugees.setRelationship(player.getId(), 0);
+		refugees.setRelationship(remnant.getId(), 0);
+		refugees.setRelationship(scav.getId(), 0);
+		refugees.setRelationship(diktat.getId(), 0);
+		refugees.setRelationship(sleeper.getId(), 0);
+		refugees.setRelationship(threat.getId(), 0);
+		refugees.setRelationship(tritachyon.getId(), 0);
+		
+		// Remnant,
+		remnant.setRelationship(derelict.getId(), 0);
+		remnant.setRelationship(dweller.getId(), 0);
+		remnant.setRelationship(hegemony.getId(), 0);
+		remnant.setRelationship(independent.getId(), 0);
+		remnant.setRelationship(kol.getId(), 0);
+		remnant.setRelationship(lionsguard.getId(), 0);
+		remnant.setRelationship(church.getId(), 0);
+		remnant.setRelationship(path.getId(), 0);
+		remnant.setRelationship(merc.getId(), 0);
+		remnant.setRelationship(neutral.getId(), 0);
+		remnant.setRelationship(omega.getId(), 0);
+		remnant.setRelationship(persean.getId(), 0);
+		remnant.setRelationship(pirates.getId(), 0);
+		remnant.setRelationship(player.getId(), 0);
+		remnant.setRelationship(refugees.getId(), 0);
+		remnant.setRelationship(scav.getId(), 0);
+		remnant.setRelationship(diktat.getId(), 0);
+		remnant.setRelationship(sleeper.getId(), 0);
+		remnant.setRelationship(threat.getId(), 0);
+		remnant.setRelationship(tritachyon.getId(), 0);
+		
+		// Scav,
+		scav.setRelationship(derelict.getId(), 0);
+		scav.setRelationship(dweller.getId(), 0);
+		scav.setRelationship(hegemony.getId(), 0);
+		scav.setRelationship(independent.getId(), 0);
+		scav.setRelationship(kol.getId(), 0);
+		scav.setRelationship(lionsguard.getId(), 0);
+		scav.setRelationship(church.getId(), 0);
+		scav.setRelationship(path.getId(), 0);
+		scav.setRelationship(merc.getId(), 0);
+		scav.setRelationship(neutral.getId(), 0);
+		scav.setRelationship(omega.getId(), 0);
+		scav.setRelationship(persean.getId(), 0);
+		scav.setRelationship(pirates.getId(), 0);
+		scav.setRelationship(player.getId(), 0);
+		scav.setRelationship(refugees.getId(), 0);
+		scav.setRelationship(remnant.getId(), 0);
+		scav.setRelationship(diktat.getId(), 0);
+		scav.setRelationship(sleeper.getId(), 0);
+		scav.setRelationship(threat.getId(), 0);
+		scav.setRelationship(tritachyon.getId(), 0);
+		
+		// Diktat,
+		diktat.setRelationship(derelict.getId(), 0);
+		diktat.setRelationship(dweller.getId(), 0);
+		diktat.setRelationship(hegemony.getId(), 0);
+		diktat.setRelationship(independent.getId(), 0);
+		diktat.setRelationship(kol.getId(), 0);
+		diktat.setRelationship(lionsguard.getId(), 0);
+		diktat.setRelationship(church.getId(), 0);
+		diktat.setRelationship(path.getId(), 0);
+		diktat.setRelationship(merc.getId(), 0);
+		diktat.setRelationship(neutral.getId(), 0);
+		diktat.setRelationship(omega.getId(), 0);
+		diktat.setRelationship(persean.getId(), 0);
+		diktat.setRelationship(pirates.getId(), 0);
+		diktat.setRelationship(player.getId(), 0);
+		diktat.setRelationship(refugees.getId(), 0);
+		diktat.setRelationship(remnant.getId(), 0);
+		diktat.setRelationship(scav.getId(), 0);
+		diktat.setRelationship(sleeper.getId(), 0);
+		diktat.setRelationship(threat.getId(), 0);
+		diktat.setRelationship(tritachyon.getId(), 0);
+		
+		// Sleeper,
+		sleeper.setRelationship(derelict.getId(), 0);
+		sleeper.setRelationship(dweller.getId(), 0);
+		sleeper.setRelationship(hegemony.getId(), 0);
+		sleeper.setRelationship(independent.getId(), 0);
+		sleeper.setRelationship(kol.getId(), 0);
+		sleeper.setRelationship(lionsguard.getId(), 0);
+		sleeper.setRelationship(church.getId(), 0);
+		sleeper.setRelationship(path.getId(), 0);
+		sleeper.setRelationship(merc.getId(), 0);
+		sleeper.setRelationship(neutral.getId(), 0);
+		sleeper.setRelationship(omega.getId(), 0);
+		sleeper.setRelationship(persean.getId(), 0);
+		sleeper.setRelationship(pirates.getId(), 0);
+		sleeper.setRelationship(player.getId(), 0);
+		sleeper.setRelationship(refugees.getId(), 0);
+		sleeper.setRelationship(remnant.getId(), 0);
+		sleeper.setRelationship(scav.getId(), 0);
+		sleeper.setRelationship(diktat.getId(), 0);
+		sleeper.setRelationship(threat.getId(), 0);
+		sleeper.setRelationship(tritachyon.getId(), 0);
+		
+		// Threat,
+		threat.setRelationship(derelict.getId(), 0);
+		threat.setRelationship(dweller.getId(), 0);
+		threat.setRelationship(hegemony.getId(), 0);
+		threat.setRelationship(independent.getId(), 0);
+		threat.setRelationship(kol.getId(), 0);
+		threat.setRelationship(lionsguard.getId(), 0);
+		threat.setRelationship(church.getId(), 0);
+		threat.setRelationship(path.getId(), 0);
+		threat.setRelationship(merc.getId(), 0);
+		threat.setRelationship(neutral.getId(), 0);
+		threat.setRelationship(omega.getId(), 0);
+		threat.setRelationship(persean.getId(), 0);
+		threat.setRelationship(pirates.getId(), 0);
+		threat.setRelationship(player.getId(), 0);
+		threat.setRelationship(refugees.getId(), 0);
+		threat.setRelationship(remnant.getId(), 0);
+		threat.setRelationship(scav.getId(), 0);
+		threat.setRelationship(diktat.getId(), 0);
+		threat.setRelationship(sleeper.getId(), 0);
+		threat.setRelationship(tritachyon.getId(), 0);
+		
+		// Tritachyon,
+		tritachyon.setRelationship(derelict.getId(), 0);
+		tritachyon.setRelationship(dweller.getId(), 0);
+		tritachyon.setRelationship(hegemony.getId(), 0);
+		tritachyon.setRelationship(independent.getId(), 0);
+		tritachyon.setRelationship(kol.getId(), 0);
+		tritachyon.setRelationship(lionsguard.getId(), 0);
+		tritachyon.setRelationship(church.getId(), 0);
+		tritachyon.setRelationship(path.getId(), 0);
+		tritachyon.setRelationship(merc.getId(), 0);
+		tritachyon.setRelationship(neutral.getId(), 0);
+		tritachyon.setRelationship(omega.getId(), 0);
+		tritachyon.setRelationship(persean.getId(), 0);
+		tritachyon.setRelationship(pirates.getId(), 0);
+		tritachyon.setRelationship(player.getId(), 0);
+		tritachyon.setRelationship(refugees.getId(), 0);
+		tritachyon.setRelationship(remnant.getId(), 0);
+		tritachyon.setRelationship(scav.getId(), 0);
+		tritachyon.setRelationship(diktat.getId(), 0);
+		tritachyon.setRelationship(sleeper.getId(), 0);
+		tritachyon.setRelationship(threat.getId(), 0);
+	}
+}

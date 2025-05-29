@@ -1,12 +1,13 @@
 {
-  "masterVersionFile": "",
-  "modName": "AkagiVoid Player Faction Changer",
-  "modThreadId": 25040,
+  "masterVersionFile": "https://github.com/AkagiVoid/starsector_arknights-factions/blob/main/zzz_Akagivoid-Arknights-Factions_zzz.version",
+  "modName": "Arknights_Factions_Replacer",
+# "modThreadId":,
   "modVersion":
   {
     "major":0,
     "minor":0,
     "patch":1,
   },
-  "directDownloadURL": ""
+  "directDownloadURL": "https://github.com/AkagiVoid/starsector_arknights-factions/archive/refs/tags/0.1.zip",
+  "changelogURL":""
 }

@@ -1,0 +1,25 @@
+> WarningNote01: Dis mod does NOT play well with mods dat changes vanilla faction behaviors in "\data\world\factions" for files with ".faction", as my mod disables default vanilla factions and replaces em with an alt one, as a sort of anti-merge measure, so arknight names (even if randomized) remains in their respective faction. :3
+
+File named "ArknightsLeaders_Original.zip" Is character PFPs be4 I intergated em in2 vanilla. >w>
+# Note02: Characters are from Arknights but their names during events do NOT match. >w<
+I may fix dis in future but IDK. >w>
+
+The folder named "SectorGens" have SectorGen files 4 different faction relations settings. >w>
+As when installing my mod, it does not come with one, so game will use vanilla "SectorGen" 2 generate every thing. >w>
+# Note03: be4 reading below, keep in mind dat NExerelin will attempt 2 adjust faction relations overtime with political faction events randomly. >w<
+
+SectorGen_Arknights - Is set close to arknights wiki and what sum background tells about a faction. >w>
+I may have messed up sum but its generally close 2 arknights relations in general. ^w^
+
+SectorGen_NEx_Neutral - Ever factions is neutral to every other faction at start. :3
+
+SectorGen_NEx_AkagiCustom - This one is set up 2 my personal tasts. >w>
+
+>Q1: How to intall mod? ?w?
+A1: Copy mod folder named "zzz_akagivoid-arknights-factions_zzz" over in2 "Starsector\mods" folder, start game, enable the mod in "Mods..." be4 actually starting the game, playgame and ENJOY. :3
+
+> Q2: How to install SectorGen file? ?w?
+A2: Copy and rename the file 2 "SectorGen.java" and then cut and paste it in2 "zzz_akagivoid-arknights-factions_zzz\data\scripts\world" and enjoy game. :3
+
+>Q3: Why is there "zzz" in folder name? ?w?
+A3: Dis is 2 make dis mod load last from any other mod U may have present in game's mods folder, which should produce less errors but dis is experimental so IDK. >w>
